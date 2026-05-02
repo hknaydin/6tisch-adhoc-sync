@@ -2,10 +2,12 @@
 
 **Ad-hoc Data Synchronisation over IEEE 802.15.4e TSCH for 6TiSCH Smart Grid Networks**
 
+<p align="justify">
 `6tisch-adhoc-sync` is a gossip-based ad-hoc data synchronisation layer that operates directly over the IEEE 802.15.4e TSCH MAC and replaces RPL-based upward forwarding as the data plane of the 6TiSCH stack. Each node maintains and continuously merges a distributed snapshot of the network's measurement state with its neighbours, rather than pushing every reading toward a fixed root. A mobile sink — for example, a drive-by collector mounted on a service vehicle — can retrieve the full network state by contacting any single node in range, with no DODAG formation and no 6P negotiation.
-
+</p>
+<p align="justify">
 This repository contains the implementation, simulation configurations, mobility traces, and evaluation scripts associated with the paper:
-
+</p>
 ---
 
 ## Key Ideas
@@ -104,8 +106,9 @@ python scripts/parse-cooja-log.py results/grid-30node.log
 | S3 | Random | Static | 0 |
 | S4 | Random | High (2–8 m/s, RWP) | 1 |
 
+<p align="justify">
 All six scenarios are executed for both 30-node and 40-node networks on a 300 m × 300 m area, with the Exp5438 mote (16-bit MSP430F5438) emulated under UDGM. Each scenario is repeated for ten random seeds; mean values are reported.
-
+</p>
 ---
 
 ## Headline Results
@@ -123,9 +126,9 @@ Comparison against standard 6TiSCH (RPL Classic + Minimal 6TiSCH schedule):
 The protocol remains stable under packet-loss rates of up to 30 %.
 
 ## Acknowledgements
-
+<p align="justify">
 The customised Contiki-NG and 4eMAC TSCH stack used in this work were provided by [Mavi Alp Information Technologies](https://www.mavialp.com/). Field-deployment and integration discussions with [Dicle Electricity Distribution Inc. (DEDAŞ)](https://www.dedas.com.tr/) shaped the AMI use case that motivated the architecture.
-
+</p>
 ---
 
 ## License
