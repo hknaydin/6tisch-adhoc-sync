@@ -10,6 +10,12 @@
  * Works both in scanning (pre-sync) and slotted (post-sync) modes.
  */
 
+ * \author
+ *
+ *         Sedat Gormus <sedatgormus@gmail.com>
+ *
+ *         Hakan AYDIN <hakayd28@gmail.com>
+ */
 #include "contiki.h"
 
 #if TSCH_TIME_SYNCH
