@@ -14,11 +14,7 @@
  */
 
 /* ===== TIMEOUT (90 dakika = 5400000 ms) ===== */
-TIMEOUT(5400000, log.log("\n\n===== SIMULATION TIMEOUT - RESULTS =====\n");
-printAdhocResults();
-printUdpResults();
-log.log("===== END =====\n");
-);
+TIMEOUT(5400000);
 
 /* ===== CONFIGURATION ===== */
 serverID = 1;
@@ -332,10 +328,21 @@ function parseAdhocSync(nodeID, message) {
 
 /* ===== MAIN LOOP ===== */
 start_time = time;
+last_report_time = 0;
+REPORT_INTERVAL = 300000000; /* 5 dakika = 300 saniye = 300000000 us */
 
 while (1) {
 
   YIELD();
+
+  /* ===== Periyodik Sonuç Raporlama (her 5 dk) ===== */
+  if (time - last_report_time > REPORT_INTERVAL) {
+    log.log("\n\n===== PERIODIC REPORT at " + (time / 1000000.0).toFixed(1) + " s =====\n");
+    printAdhocResults();
+    printUdpResults();
+    log.log("===== END REPORT =====\n");
+    last_report_time = time;
+  }
 
   str = msg.replace(/  +/g, ' ');
   msgArray = str.split(' ');
