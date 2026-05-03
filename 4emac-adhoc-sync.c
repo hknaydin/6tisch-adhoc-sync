@@ -11,7 +11,6 @@
  */
 
  * \author
- *
  *         Sedat Gormus <sedatgormus@gmail.com>
  *
  *         Hakan AYDIN <hakayd28@gmail.com>
