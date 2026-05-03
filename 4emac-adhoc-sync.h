@@ -9,9 +9,8 @@
  * using beacon-like frames with magic bytes (0xAD, 0x0C) to
  * distinguish from real EBs. Works both before and after TSCH sync.
  */
+
  * \author
- *         Ahmet Faruk Yavuz <ahmfrk61@gmail.com>
- *
  *         Sedat Gormus <sedatgormus@gmail.com>
  *
  *         Hakan AYDIN <hakayd28@gmail.com>
