@@ -1,0 +1,656 @@
+Random seed: 521040
+
+4/5/2026  8:47:25
+Total motes: 11
+*** Node 4 CONVERGED at 70.53 s ***
+*** Node 8 CONVERGED at 70.53 s ***
+*** Node 3 CONVERGED at 70.53 s ***
+*** Node 10 CONVERGED at 70.53 s ***
+*** Node 2 CONVERGED at 89.11 s ***
+*** Node 7 CONVERGED at 89.11 s ***
+*** Node 6 CONVERGED at 89.11 s ***
+*** Node 1 CONVERGED at 89.11 s ***
+*** Node 9 CONVERGED at 89.11 s ***
+*** Node 5 CONVERGED at 89.11 s ***
+*** Node 11 CONVERGED at 126.92 s ***
+*** NETWORK CONVERGED at 126.92 s ***
+
+
+===== PERIODIC REPORT at 300.0 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 167
+RPL_DIS: 18
+RPL_DAO: 35
+RPL_Total: 220
+Adhoc_TX: 261
+Adhoc_RX: 765
+
+--- Convergence Time ---
+  Node 1 converged at: 89.11 s
+  Node 2 converged at: 89.11 s
+  Node 3 converged at: 70.53 s
+  Node 4 converged at: 70.53 s
+  Node 5 converged at: 89.11 s
+  Node 6 converged at: 89.11 s
+  Node 7 converged at: 89.11 s
+  Node 8 converged at: 70.53 s
+  Node 9 converged at: 89.11 s
+  Node 10 converged at: 70.53 s
+  Node 11 converged at: 126.92 s
+Converged nodes: 11/11
+First convergence: 70.53 s
+Network convergence (last): 126.92 s
+Average convergence: 85.79 s
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 1.83
+Max Version Age: 7
+Perfect pairs (delta=0): 20/110 (18.2%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 100.0% (10/10)
+  Node 2: 100.0% (10/10)
+  Node 3: 100.0% (10/10)
+  Node 4: 100.0% (10/10)
+  Node 5: 100.0% (10/10)
+  Node 6: 100.0% (10/10)
+  Node 7: 100.0% (10/10)
+  Node 8: 100.0% (10/10)
+  Node 9: 100.0% (10/10)
+  Node 10: 100.0% (10/10)
+  Node 11: 100.0% (10/10)
+Avg eta_sc: 100.0%
+Min eta_sc: 100.0%
+Max eta_sc: 100.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 23 | 71 | 16 | 0 | 0 | 100.0%
+2 | 24 | 47 | 14 | 1 | 3 | 100.0%
+3 | 23 | 92 | 16 | 4 | 4 | 100.0%
+4 | 24 | 92 | 16 | 1 | 4 | 100.0%
+5 | 23 | 79 | 16 | 1 | 4 | 100.0%
+6 | 24 | 67 | 18 | 1 | 4 | 100.0%
+7 | 24 | 73 | 16 | 1 | 4 | 100.0%
+8 | 24 | 91 | 16 | 1 | 4 | 100.0%
+9 | 24 | 74 | 15 | 4 | 4 | 100.0%
+10 | 23 | 58 | 14 | 1 | 3 | 100.0%
+11 | 25 | 21 | 10 | 3 | 1 | 100.0%
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 2 TX: 15 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 10
+ID: 3 TX: 20 RX: 11 PDR: 55.0% AvgDelay: 745.9ms Switches: 0 BufDrop: 2
+ID: 4 TX: 20 RX: 13 PDR: 65.0% AvgDelay: 769.2ms Switches: 0 BufDrop: 2
+ID: 5 TX: 20 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 37
+ID: 6 TX: 20 RX: 2 PDR: 10.0% AvgDelay: 6239.4ms Switches: 0 BufDrop: 10
+ID: 7 TX: 20 RX: 18 PDR: 90.0% AvgDelay: 526.3ms Switches: 0 BufDrop: 1
+ID: 8 TX: 19 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 34
+ID: 9 TX: 20 RX: 17 PDR: 85.0% AvgDelay: 510.0ms Switches: 0 BufDrop: 6
+ID: 10 TX: 16 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 11
+ID: 11 TX: 10 RX: 5 PDR: 50.0% AvgDelay: 484.2ms Switches: 1 BufDrop: 2
+
+Total TX: 180 RX: 66 PDR: 36.67% AvgDelay: 776.48ms BufferDrop: 115
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 600.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 229
+RPL_DIS: 19
+RPL_DAO: 59
+RPL_Total: 307
+Adhoc_TX: 524
+Adhoc_RX: 1748
+
+--- Convergence Time ---
+  Node 1 converged at: 89.11 s
+  Node 2 converged at: 89.11 s
+  Node 3 converged at: 70.53 s
+  Node 4 converged at: 70.53 s
+  Node 5 converged at: 89.11 s
+  Node 6 converged at: 89.11 s
+  Node 7 converged at: 89.11 s
+  Node 8 converged at: 70.53 s
+  Node 9 converged at: 89.11 s
+  Node 10 converged at: 70.53 s
+  Node 11 converged at: 126.92 s
+Converged nodes: 11/11
+First convergence: 70.53 s
+Network convergence (last): 126.92 s
+Average convergence: 85.79 s
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 1.66
+Max Version Age: 5
+Perfect pairs (delta=0): 30/110 (27.3%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 100.0% (10/10)
+  Node 2: 100.0% (10/10)
+  Node 3: 100.0% (10/10)
+  Node 4: 100.0% (10/10)
+  Node 5: 100.0% (10/10)
+  Node 6: 100.0% (10/10)
+  Node 7: 100.0% (10/10)
+  Node 8: 100.0% (10/10)
+  Node 9: 100.0% (10/10)
+  Node 10: 100.0% (10/10)
+  Node 11: 100.0% (10/10)
+Avg eta_sc: 100.0%
+Min eta_sc: 100.0%
+Max eta_sc: 100.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 47 | 155 | 22 | 0 | 0 | 100.0%
+2 | 49 | 108 | 20 | 1 | 3 | 100.0%
+3 | 48 | 223 | 21 | 4 | 7 | 100.0%
+4 | 47 | 208 | 22 | 1 | 7 | 100.0%
+5 | 47 | 178 | 26 | 1 | 7 | 100.0%
+6 | 48 | 153 | 25 | 1 | 7 | 100.0%
+7 | 47 | 158 | 22 | 1 | 7 | 100.0%
+8 | 47 | 208 | 18 | 2 | 7 | 100.0%
+9 | 48 | 156 | 21 | 4 | 7 | 100.0%
+10 | 47 | 137 | 20 | 1 | 3 | 100.0%
+11 | 49 | 64 | 12 | 3 | 4 | 100.0%
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 2 TX: 36 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 21
+ID: 3 TX: 40 RX: 24 PDR: 60.0% AvgDelay: 457.5ms Switches: 0 BufDrop: 2
+ID: 4 TX: 39 RX: 26 PDR: 66.7% AvgDelay: 508.6ms Switches: 0 BufDrop: 3
+ID: 5 TX: 40 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 76
+ID: 6 TX: 40 RX: 14 PDR: 35.0% AvgDelay: 1053.3ms Switches: 0 BufDrop: 15
+ID: 7 TX: 40 RX: 30 PDR: 75.0% AvgDelay: 412.9ms Switches: 0 BufDrop: 1
+ID: 8 TX: 40 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 69
+ID: 9 TX: 40 RX: 31 PDR: 77.5% AvgDelay: 390.5ms Switches: 0 BufDrop: 11
+ID: 10 TX: 36 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 19
+ID: 11 TX: 30 RX: 17 PDR: 56.7% AvgDelay: 564.1ms Switches: 1 BufDrop: 2
+
+Total TX: 381 RX: 142 PDR: 37.27% AvgDelay: 514.29ms BufferDrop: 219
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 900.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 251
+RPL_DIS: 20
+RPL_DAO: 61
+RPL_Total: 332
+Adhoc_TX: 789
+Adhoc_RX: 2666
+
+--- Convergence Time ---
+  Node 1 converged at: 89.11 s
+  Node 2 converged at: 89.11 s
+  Node 3 converged at: 70.53 s
+  Node 4 converged at: 70.53 s
+  Node 5 converged at: 89.11 s
+  Node 6 converged at: 89.11 s
+  Node 7 converged at: 89.11 s
+  Node 8 converged at: 70.53 s
+  Node 9 converged at: 89.11 s
+  Node 10 converged at: 70.53 s
+  Node 11 converged at: 126.92 s
+Converged nodes: 11/11
+First convergence: 70.53 s
+Network convergence (last): 126.92 s
+Average convergence: 85.79 s
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 2.97
+Max Version Age: 8
+Perfect pairs (delta=0): 19/110 (17.3%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 100.0% (10/10)
+  Node 2: 100.0% (10/10)
+  Node 3: 100.0% (10/10)
+  Node 4: 100.0% (10/10)
+  Node 5: 100.0% (10/10)
+  Node 6: 100.0% (10/10)
+  Node 7: 100.0% (10/10)
+  Node 8: 100.0% (10/10)
+  Node 9: 100.0% (10/10)
+  Node 10: 100.0% (10/10)
+  Node 11: 100.0% (10/10)
+Avg eta_sc: 100.0%
+Min eta_sc: 100.0%
+Max eta_sc: 100.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 70 | 232 | 22 | 0 | 0 | 100.0%
+2 | 73 | 170 | 22 | 1 | 4 | 100.0%
+3 | 72 | 341 | 21 | 5 | 7 | 100.0%
+4 | 72 | 314 | 24 | 1 | 7 | 100.0%
+5 | 70 | 266 | 32 | 1 | 7 | 100.0%
+6 | 72 | 230 | 27 | 1 | 7 | 100.0%
+7 | 72 | 237 | 24 | 1 | 7 | 100.0%
+8 | 71 | 316 | 22 | 2 | 7 | 100.0%
+9 | 73 | 235 | 23 | 4 | 7 | 100.0%
+10 | 72 | 217 | 22 | 1 | 4 | 100.0%
+11 | 72 | 108 | 12 | 3 | 4 | 100.0%
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 2 TX: 55 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 24
+ID: 3 TX: 60 RX: 39 PDR: 65.0% AvgDelay: 376.5ms Switches: 0 BufDrop: 2
+ID: 4 TX: 59 RX: 42 PDR: 71.2% AvgDelay: 414.0ms Switches: 0 BufDrop: 3
+ID: 5 TX: 60 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 113
+ID: 6 TX: 60 RX: 29 PDR: 48.3% AvgDelay: 603.6ms Switches: 0 BufDrop: 15
+ID: 7 TX: 59 RX: 46 PDR: 78.0% AvgDelay: 364.5ms Switches: 0 BufDrop: 1
+ID: 8 TX: 59 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 98
+ID: 9 TX: 59 RX: 46 PDR: 78.0% AvgDelay: 326.2ms Switches: 0 BufDrop: 12
+ID: 10 TX: 56 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 20
+ID: 11 TX: 50 RX: 36 PDR: 72.0% AvgDelay: 601.2ms Switches: 1 BufDrop: 2
+
+Total TX: 577 RX: 238 PDR: 41.25% AvgDelay: 432.73ms BufferDrop: 290
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 1200.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 270
+RPL_DIS: 20
+RPL_DAO: 61
+RPL_Total: 351
+Adhoc_TX: 1046
+Adhoc_RX: 3785
+
+--- Convergence Time ---
+  Node 1 converged at: 89.11 s
+  Node 2 converged at: 89.11 s
+  Node 3 converged at: 70.53 s
+  Node 4 converged at: 70.53 s
+  Node 5 converged at: 89.11 s
+  Node 6 converged at: 89.11 s
+  Node 7 converged at: 89.11 s
+  Node 8 converged at: 70.53 s
+  Node 9 converged at: 89.11 s
+  Node 10 converged at: 70.53 s
+  Node 11 converged at: 126.92 s
+Converged nodes: 11/11
+First convergence: 70.53 s
+Network convergence (last): 126.92 s
+Average convergence: 85.79 s
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 1.01
+Max Version Age: 2
+Perfect pairs (delta=0): 33/110 (30.0%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 100.0% (10/10)
+  Node 2: 100.0% (10/10)
+  Node 3: 100.0% (10/10)
+  Node 4: 100.0% (10/10)
+  Node 5: 100.0% (10/10)
+  Node 6: 100.0% (10/10)
+  Node 7: 100.0% (10/10)
+  Node 8: 100.0% (10/10)
+  Node 9: 100.0% (10/10)
+  Node 10: 100.0% (10/10)
+  Node 11: 100.0% (10/10)
+Avg eta_sc: 100.0%
+Min eta_sc: 100.0%
+Max eta_sc: 100.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 93 | 333 | 22 | 0 | 0 | 100.0%
+2 | 96 | 240 | 23 | 1 | 4 | 100.0%
+3 | 95 | 481 | 21 | 5 | 7 | 100.0%
+4 | 96 | 446 | 25 | 1 | 7 | 100.0%
+5 | 94 | 379 | 38 | 1 | 7 | 100.0%
+6 | 96 | 330 | 28 | 1 | 7 | 100.0%
+7 | 96 | 333 | 25 | 1 | 7 | 100.0%
+8 | 94 | 446 | 28 | 2 | 7 | 100.0%
+9 | 97 | 338 | 24 | 4 | 7 | 100.0%
+10 | 95 | 304 | 23 | 1 | 4 | 100.0%
+11 | 94 | 155 | 13 | 3 | 4 | 100.0%
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 2 TX: 75 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 26
+ID: 3 TX: 80 RX: 50 PDR: 62.5% AvgDelay: 328.3ms Switches: 0 BufDrop: 2
+ID: 4 TX: 79 RX: 55 PDR: 69.6% AvgDelay: 381.0ms Switches: 0 BufDrop: 3
+ID: 5 TX: 80 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 148
+ID: 6 TX: 80 RX: 45 PDR: 56.3% AvgDelay: 485.9ms Switches: 0 BufDrop: 15
+ID: 7 TX: 79 RX: 64 PDR: 81.0% AvgDelay: 334.5ms Switches: 0 BufDrop: 1
+ID: 8 TX: 79 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 128
+ID: 9 TX: 80 RX: 63 PDR: 78.8% AvgDelay: 319.0ms Switches: 0 BufDrop: 12
+ID: 10 TX: 76 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 20
+ID: 11 TX: 69 RX: 52 PDR: 75.4% AvgDelay: 612.5ms Switches: 1 BufDrop: 2
+
+Total TX: 777 RX: 329 PDR: 42.34% AvgDelay: 403.01ms BufferDrop: 357
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 1500.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 368
+RPL_DIS: 23
+RPL_DAO: 80
+RPL_Total: 471
+Adhoc_TX: 1307
+Adhoc_RX: 4856
+
+--- Convergence Time ---
+  Node 1 converged at: 89.11 s
+  Node 2 converged at: 89.11 s
+  Node 3 converged at: 70.53 s
+  Node 4 converged at: 70.53 s
+  Node 5 converged at: 89.11 s
+  Node 6 converged at: 89.11 s
+  Node 7 converged at: 89.11 s
+  Node 8 converged at: 70.53 s
+  Node 9 converged at: 89.11 s
+  Node 10 converged at: 70.53 s
+  Node 11 converged at: 126.92 s
+Converged nodes: 11/11
+First convergence: 70.53 s
+Network convergence (last): 126.92 s
+Average convergence: 85.79 s
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 0.76
+Max Version Age: 2
+Perfect pairs (delta=0): 46/110 (41.8%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 100.0% (10/10)
+  Node 2: 100.0% (10/10)
+  Node 3: 100.0% (10/10)
+  Node 4: 100.0% (10/10)
+  Node 5: 100.0% (10/10)
+  Node 6: 100.0% (10/10)
+  Node 7: 100.0% (10/10)
+  Node 8: 100.0% (10/10)
+  Node 9: 100.0% (10/10)
+  Node 10: 100.0% (10/10)
+  Node 11: 100.0% (10/10)
+Avg eta_sc: 100.0%
+Min eta_sc: 100.0%
+Max eta_sc: 100.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 116 | 432 | 26 | 0 | 0 | 100.0%
+2 | 121 | 301 | 30 | 1 | 6 | 100.0%
+3 | 119 | 615 | 25 | 7 | 9 | 100.0%
+4 | 119 | 569 | 36 | 1 | 9 | 100.0%
+5 | 118 | 488 | 50 | 2 | 9 | 100.0%
+6 | 120 | 428 | 38 | 1 | 9 | 100.0%
+7 | 120 | 431 | 35 | 1 | 9 | 100.0%
+8 | 117 | 577 | 40 | 2 | 9 | 100.0%
+9 | 120 | 435 | 34 | 4 | 9 | 100.0%
+10 | 119 | 383 | 35 | 1 | 6 | 100.0%
+11 | 118 | 197 | 19 | 3 | 5 | 100.0%
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 2 TX: 95 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 29
+ID: 3 TX: 100 RX: 66 PDR: 66.0% AvgDelay: 313.8ms Switches: 0 BufDrop: 2
+ID: 4 TX: 99 RX: 66 PDR: 66.7% AvgDelay: 366.3ms Switches: 0 BufDrop: 3
+ID: 5 TX: 100 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 180
+ID: 6 TX: 100 RX: 60 PDR: 60.0% AvgDelay: 421.2ms Switches: 0 BufDrop: 15
+ID: 7 TX: 99 RX: 79 PDR: 79.8% AvgDelay: 323.2ms Switches: 0 BufDrop: 1
+ID: 8 TX: 99 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 157
+ID: 9 TX: 100 RX: 80 PDR: 80.0% AvgDelay: 298.8ms Switches: 0 BufDrop: 12
+ID: 10 TX: 96 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 23
+ID: 11 TX: 90 RX: 70 PDR: 77.8% AvgDelay: 622.0ms Switches: 1 BufDrop: 2
+
+Total TX: 978 RX: 421 PDR: 43.05% AvgDelay: 387.49ms BufferDrop: 424
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 1800.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 438
+RPL_DIS: 27
+RPL_DAO: 83
+RPL_Total: 548
+Adhoc_TX: 1572
+Adhoc_RX: 6053
+
+--- Convergence Time ---
+  Node 1 converged at: 89.11 s
+  Node 2 converged at: 89.11 s
+  Node 3 converged at: 70.53 s
+  Node 4 converged at: 70.53 s
+  Node 5 converged at: 89.11 s
+  Node 6 converged at: 89.11 s
+  Node 7 converged at: 89.11 s
+  Node 8 converged at: 70.53 s
+  Node 9 converged at: 89.11 s
+  Node 10 converged at: 70.53 s
+  Node 11 converged at: 126.92 s
+Converged nodes: 11/11
+First convergence: 70.53 s
+Network convergence (last): 126.92 s
+Average convergence: 85.79 s
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 0.95
+Max Version Age: 4
+Perfect pairs (delta=0): 51/110 (46.4%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 100.0% (10/10)
+  Node 2: 100.0% (10/10)
+  Node 3: 100.0% (10/10)
+  Node 4: 100.0% (10/10)
+  Node 5: 100.0% (10/10)
+  Node 6: 100.0% (10/10)
+  Node 7: 100.0% (10/10)
+  Node 8: 100.0% (10/10)
+  Node 9: 100.0% (10/10)
+  Node 10: 100.0% (10/10)
+  Node 11: 100.0% (10/10)
+Avg eta_sc: 100.0%
+Min eta_sc: 100.0%
+Max eta_sc: 100.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 140 | 536 | 27 | 0 | 0 | 100.0%
+2 | 145 | 378 | 42 | 1 | 7 | 100.0%
+3 | 143 | 763 | 25 | 10 | 9 | 100.0%
+4 | 143 | 709 | 41 | 2 | 9 | 100.0%
+5 | 142 | 612 | 61 | 2 | 10 | 100.0%
+6 | 145 | 531 | 44 | 1 | 9 | 100.0%
+7 | 144 | 540 | 41 | 1 | 9 | 100.0%
+8 | 141 | 713 | 47 | 2 | 9 | 100.0%
+9 | 144 | 545 | 41 | 4 | 9 | 100.0%
+10 | 143 | 477 | 44 | 1 | 7 | 100.0%
+11 | 142 | 249 | 25 | 3 | 5 | 100.0%
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 2 TX: 115 RX: 5 PDR: 4.3% AvgDelay: 665.9ms Switches: 1 BufDrop: 34
+ID: 3 TX: 120 RX: 78 PDR: 65.0% AvgDelay: 297.2ms Switches: 0 BufDrop: 2
+ID: 4 TX: 119 RX: 81 PDR: 68.1% AvgDelay: 349.9ms Switches: 0 BufDrop: 3
+ID: 5 TX: 120 RX: 8 PDR: 6.7% AvgDelay: 2045.8ms Switches: 1 BufDrop: 193
+ID: 6 TX: 120 RX: 71 PDR: 59.2% AvgDelay: 396.1ms Switches: 0 BufDrop: 15
+ID: 7 TX: 119 RX: 92 PDR: 77.3% AvgDelay: 318.1ms Switches: 0 BufDrop: 1
+ID: 8 TX: 119 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 186
+ID: 9 TX: 119 RX: 94 PDR: 79.0% AvgDelay: 302.9ms Switches: 0 BufDrop: 12
+ID: 10 TX: 116 RX: 10 PDR: 8.6% AvgDelay: 1802.0ms Switches: 1 BufDrop: 27
+ID: 11 TX: 109 RX: 83 PDR: 76.1% AvgDelay: 614.3ms Switches: 1 BufDrop: 2
+
+Total TX: 1176 RX: 522 PDR: 44.39% AvgDelay: 433.11ms BufferDrop: 475
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 2100.2 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 603
+RPL_DIS: 34
+RPL_DAO: 111
+RPL_Total: 748
+Adhoc_TX: 1834
+Adhoc_RX: 7410
+
+--- Convergence Time ---
+  Node 1 converged at: 89.11 s
+  Node 2 converged at: 89.11 s
+  Node 3 converged at: 70.53 s
+  Node 4 converged at: 70.53 s
+  Node 5 converged at: 89.11 s
+  Node 6 converged at: 89.11 s
+  Node 7 converged at: 89.11 s
+  Node 8 converged at: 70.53 s
+  Node 9 converged at: 89.11 s
+  Node 10 converged at: 70.53 s
+  Node 11 converged at: 126.92 s
+Converged nodes: 11/11
+First convergence: 70.53 s
+Network convergence (last): 126.92 s
+Average convergence: 85.79 s
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 0.34
+Max Version Age: 2
+Perfect pairs (delta=0): 83/110 (75.5%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 100.0% (10/10)
+  Node 2: 100.0% (10/10)
+  Node 3: 100.0% (10/10)
+  Node 4: 100.0% (10/10)
+  Node 5: 100.0% (10/10)
+  Node 6: 100.0% (10/10)
+  Node 7: 100.0% (10/10)
+  Node 8: 100.0% (10/10)
+  Node 9: 100.0% (10/10)
+  Node 10: 100.0% (10/10)
+  Node 11: 100.0% (10/10)
+Avg eta_sc: 100.0%
+Min eta_sc: 100.0%
+Max eta_sc: 100.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 164 | 662 | 38 | 0 | 0 | 100.0%
+2 | 168 | 465 | 60 | 1 | 7 | 100.0%
+3 | 168 | 935 | 25 | 16 | 13 | 100.0%
+4 | 168 | 868 | 56 | 3 | 13 | 100.0%
+5 | 166 | 754 | 78 | 2 | 14 | 100.0%
+6 | 168 | 654 | 61 | 1 | 13 | 100.0%
+7 | 168 | 661 | 58 | 1 | 13 | 100.0%
+8 | 165 | 867 | 65 | 2 | 13 | 100.0%
+9 | 168 | 666 | 57 | 4 | 13 | 100.0%
+10 | 166 | 578 | 63 | 1 | 7 | 100.0%
+11 | 165 | 300 | 42 | 3 | 5 | 100.0%
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 2 TX: 135 RX: 23 PDR: 17.0% AvgDelay: 643.1ms Switches: 1 BufDrop: 35
+ID: 3 TX: 139 RX: 93 PDR: 66.9% AvgDelay: 298.8ms Switches: 0 BufDrop: 2
+ID: 4 TX: 138 RX: 95 PDR: 68.8% AvgDelay: 350.9ms Switches: 0 BufDrop: 3
+ID: 5 TX: 140 RX: 23 PDR: 16.4% AvgDelay: 1264.9ms Switches: 1 BufDrop: 194
+ID: 6 TX: 139 RX: 87 PDR: 62.6% AvgDelay: 374.8ms Switches: 0 BufDrop: 15
+ID: 7 TX: 140 RX: 107 PDR: 76.4% AvgDelay: 306.9ms Switches: 0 BufDrop: 1
+ID: 8 TX: 139 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 222
+ID: 9 TX: 140 RX: 110 PDR: 78.6% AvgDelay: 304.9ms Switches: 0 BufDrop: 13
+ID: 10 TX: 136 RX: 21 PDR: 15.4% AvgDelay: 1184.0ms Switches: 1 BufDrop: 27
+ID: 11 TX: 129 RX: 97 PDR: 75.2% AvgDelay: 624.9ms Switches: 1 BufDrop: 2
+
+Total TX: 1375 RX: 656 PDR: 47.71% AvgDelay: 441.26ms BufferDrop: 514
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 2400.2 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 761
+RPL_DIS: 42
+RPL_DAO: 144
+RPL_Total: 947
+Adhoc_TX: 2097
+Adhoc_RX: 8751
+
+--- Convergence Time ---
+  Node 1 converged at: 89.11 s
+  Node 2 converged at: 89.11 s
+  Node 3 converged at: 70.53 s
+  Node 4 converged at: 70.53 s
+  Node 5 converged at: 89.11 s
+  Node 6 converged at: 89.11 s
+  Node 7 converged at: 89.11 s
+  Node 8 converged at: 70.53 s
+  Node 9 converged at: 89.11 s
+  Node 10 converged at: 70.53 s
+  Node 11 converged at: 126.92 s
+Converged nodes: 11/11
+First convergence: 70.53 s
+Network convergence (last): 126.92 s
+Average convergence: 85.79 s
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 0.31
+Max Version Age: 2
+Perfect pairs (delta=0): 87/110 (79.1%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 100.0% (10/10)
+  Node 2: 100.0% (10/10)
+  Node 3: 100.0% (10/10)
+  Node 4: 100.0% (10/10)
+  Node 5: 100.0% (10/10)
+  Node 6: 100.0% (10/10)
+  Node 7: 100.0% (10/10)
+  Node 8: 100.0% (10/10)
+  Node 9: 100.0% (10/10)
+  Node 10: 100.0% (10/10)
+  Node 11: 100.0% (10/10)
+Avg eta_sc: 100.0%
+Min eta_sc: 100.0%
+Max eta_sc: 100.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 189 | 784 | 47 | 0 | 0 | 100.0%
+2 | 192 | 548 | 76 | 1 | 7 | 100.0%
+3 | 191 | 1105 | 25 | 23 | 18 | 100.0%
+4 | 191 | 1023 | 71 | 3 | 18 | 100.0%
+5 | 189 | 890 | 94 | 2 | 16 | 100.0%
+6 | 192 | 777 | 79 | 1 | 18 | 100.0%
+7 | 192 | 782 | 76 | 1 | 18 | 100.0%
+8 | 189 | 1020 | 82 | 3 | 18 | 100.0%
+9 | 193 | 790 | 74 | 4 | 18 | 100.0%
+10 | 190 | 682 | 79 | 1 | 7 | 100.0%
+11 | 189 | 350 | 58 | 3 | 6 | 100.0%
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 2 TX: 155 RX: 38 PDR: 24.5% AvgDelay: 620.8ms Switches: 1 BufDrop: 35
+ID: 3 TX: 158 RX: 107 PDR: 67.7% AvgDelay: 437.8ms Switches: 0 BufDrop: 2
+ID: 4 TX: 158 RX: 109 PDR: 69.0% AvgDelay: 345.1ms Switches: 0 BufDrop: 3
+ID: 5 TX: 160 RX: 40 PDR: 25.0% AvgDelay: 1021.6ms Switches: 1 BufDrop: 195
+ID: 6 TX: 160 RX: 102 PDR: 63.7% AvgDelay: 358.9ms Switches: 0 BufDrop: 15
+ID: 7 TX: 160 RX: 121 PDR: 75.6% AvgDelay: 303.8ms Switches: 0 BufDrop: 1
+ID: 8 TX: 159 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 255
+ID: 9 TX: 160 RX: 121 PDR: 75.6% AvgDelay: 297.1ms Switches: 0 BufDrop: 13
+ID: 10 TX: 156 RX: 37 PDR: 23.7% AvgDelay: 917.9ms Switches: 1 BufDrop: 27
+ID: 11 TX: 149 RX: 113 PDR: 75.8% AvgDelay: 632.4ms Switches: 1 BufDrop: 2
+
+Total TX: 1575 RX: 788 PDR: 50.03% AvgDelay: 461.50ms BufferDrop: 548
+===== END REPORT =====
