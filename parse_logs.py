@@ -58,6 +58,11 @@ METRIC_PATTERNS = [
     ("energest_tx",  r"Energest_TX:\s*(\d+)",                                   int),
     ("energest_rx",  r"Energest_RX:\s*(\d+)",                                   int),
     ("energest_total", r"Energest_Total:\s*(\d+)",                              int),
+    ("power_cpu",    r"Power_CPU:\s*([\d.]+)",                                  float),
+    ("power_lpm",    r"Power_LPM:\s*([\d.]+)",                                  float),
+    ("power_tx",     r"Power_TX:\s*([\d.]+)",                                   float),
+    ("power_rx",     r"Power_RX:\s*([\d.]+)",                                   float),
+    ("power_total",  r"Power_Total:\s*([\d.]+)",                                float),
 ]
 
 METRIC_KEYS = [k for k, _, _ in METRIC_PATTERNS]
