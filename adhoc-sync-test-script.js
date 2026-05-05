@@ -81,6 +81,13 @@ adhoc_first_time = -1;
 network_converged = false;
 network_convergence_time = -1;
 
+/* ===== ENERGEST METRICS ===== */
+energest_cpu = new Array();
+energest_lpm = new Array();
+energest_tx = new Array();
+energest_rx = new Array();
+energest_total = new Array();
+
 /* ===== INITIALIZATION ===== */
 for (i = 1; i <= nodeCount; i++) {
   timeReceived[i] = 0.0;
@@ -113,6 +120,11 @@ for (i = 1; i <= nodeCount; i++) {
   rpl_dio_count[i] = 0;
   rpl_dis_count[i] = 0;
   rpl_dao_count[i] = 0;
+  energest_cpu[i] = 0;
+  energest_lpm[i] = 0;
+  energest_tx[i] = 0;
+  energest_rx[i] = 0;
+  energest_total[i] = 0;
 }
 
 /* ===== LOGGING ===== */
@@ -228,6 +240,30 @@ function printAdhocResults() {
   }
 }
 
+function printEnergestResults() {
+  log.log("\n========== ENERGEST RESULTS ==========\n");
+  var sum_cpu = 0, sum_lpm = 0, sum_tx = 0, sum_rx = 0, sum_total = 0;
+  for (var n = 1; n <= nodeCount; n++) {
+    sum_cpu += energest_cpu[n];
+    sum_lpm += energest_lpm[n];
+    sum_tx += energest_tx[n];
+    sum_rx += energest_rx[n];
+    sum_total += energest_total[n];
+  }
+  log.log("Energest_CPU: " + sum_cpu + "\n");
+  log.log("Energest_LPM: " + sum_lpm + "\n");
+  log.log("Energest_TX: " + sum_tx + "\n");
+  log.log("Energest_RX: " + sum_rx + "\n");
+  log.log("Energest_Total: " + sum_total + "\n");
+
+  log.log("\n--- Per-Node Energest (Ticks) ---\n");
+  log.log("Node | CPU | LPM | TX | RX | Total\n");
+  for (var n = 1; n <= nodeCount; n++) {
+    log.log(n + " | " + energest_cpu[n] + " | " + energest_lpm[n] + " | " +
+      energest_tx[n] + " | " + energest_rx[n] + " | " + energest_total[n] + "\n");
+  }
+}
+
 function printUdpResults() {
   log.log("\n========== UDP PDR/LATENCY RESULTS ==========\n");
   var PDR = 0;
@@ -339,6 +375,7 @@ while (1) {
   if (time - last_report_time > REPORT_INTERVAL) {
     log.log("\n\n===== PERIODIC REPORT at " + (time / 1000000.0).toFixed(1) + " s =====\n");
     printAdhocResults();
+    printEnergestResults();
     printUdpResults();
     log.log("===== END REPORT =====\n");
     last_report_time = time;
@@ -346,6 +383,26 @@ while (1) {
 
   str = msg.replace(/  +/g, ' ');
   msgArray = str.split(' ');
+
+  /* ===== ENERGEST PARSING ===== */
+  if (msg.indexOf("[INFO: Energest  ]") >= 0) {
+    if (msg.indexOf("CPU") >= 0) {
+      var m = msg.match(/CPU\s+:\s+(\d+)\//);
+      if (m) energest_cpu[id] += parseInt(m[1]);
+    } else if (msg.indexOf("LPM") >= 0 && msg.indexOf("Deep") < 0) {
+      var m = msg.match(/LPM\s+:\s+(\d+)\//);
+      if (m) energest_lpm[id] += parseInt(m[1]);
+    } else if (msg.indexOf("Radio Tx") >= 0) {
+      var m = msg.match(/Radio Tx\s+:\s+(\d+)\//);
+      if (m) energest_tx[id] += parseInt(m[1]);
+    } else if (msg.indexOf("Radio Rx") >= 0) {
+      var m = msg.match(/Radio Rx\s+:\s+(\d+)\//);
+      if (m) energest_rx[id] += parseInt(m[1]);
+    } else if (msg.indexOf("Total time") >= 0) {
+      var m = msg.match(/Total time\s+:\s+(\d+)/);
+      if (m) energest_total[id] += parseInt(m[1]);
+    }
+  }
 
   /* ===== AD-HOC SYNC PARSING ===== */
 
