@@ -53,6 +53,11 @@ METRIC_PATTERNS = [
     ("udp_pdr",      r"Total TX:\s*\d+\s+RX:\s*\d+\s+PDR:\s*([\d.]+)%",         float),
     ("udp_latency",  r"AvgDelay:\s*([\d.]+)ms\s+BufferDrop",                    float),
     ("udp_buf_drop", r"BufferDrop:\s*(\d+)\s*$",                                int),
+    ("energest_cpu", r"Energest_CPU:\s*(\d+)",                                  int),
+    ("energest_lpm", r"Energest_LPM:\s*(\d+)",                                  int),
+    ("energest_tx",  r"Energest_TX:\s*(\d+)",                                   int),
+    ("energest_rx",  r"Energest_RX:\s*(\d+)",                                   int),
+    ("energest_total", r"Energest_Total:\s*(\d+)",                              int),
 ]
 
 METRIC_KEYS = [k for k, _, _ in METRIC_PATTERNS]
