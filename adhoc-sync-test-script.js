@@ -387,16 +387,16 @@ while (1) {
   /* ===== ENERGEST PARSING ===== */
   if (msg.indexOf("[INFO: Energest  ]") >= 0) {
     if (msg.indexOf("CPU") >= 0) {
-      var m = msg.match(/CPU\s+:\s+(\d+)\//);
+      var m = msg.match(/CPU\s+:\s+(\d+)/);
       if (m) energest_cpu[id] += parseInt(m[1]);
     } else if (msg.indexOf("LPM") >= 0 && msg.indexOf("Deep") < 0) {
-      var m = msg.match(/LPM\s+:\s+(\d+)\//);
+      var m = msg.match(/LPM\s+:\s+(\d+)/);
       if (m) energest_lpm[id] += parseInt(m[1]);
     } else if (msg.indexOf("Radio Tx") >= 0) {
-      var m = msg.match(/Radio Tx\s+:\s+(\d+)\//);
+      var m = msg.match(/Radio Tx\s+:\s+(\d+)/);
       if (m) energest_tx[id] += parseInt(m[1]);
     } else if (msg.indexOf("Radio Rx") >= 0) {
-      var m = msg.match(/Radio Rx\s+:\s+(\d+)\//);
+      var m = msg.match(/Radio Rx\s+:\s+(\d+)/);
       if (m) energest_rx[id] += parseInt(m[1]);
     } else if (msg.indexOf("Total time") >= 0) {
       var m = msg.match(/Total time\s+:\s+(\d+)/);
