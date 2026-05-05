@@ -240,6 +240,13 @@ function printAdhocResults() {
   }
 }
 
+/* Energest Hardware Parameters (from Table for Exp5438) */
+var V = 3.0;
+var I_CPU = 1.9;      /* mA */
+var I_LPM = 0.0545;   /* mA */
+var I_TX = 20.0;      /* mA */
+var I_RX = 17.7;      /* mA */
+
 function printEnergestResults() {
   log.log("\n========== ENERGEST RESULTS ==========\n");
   var sum_cpu = 0, sum_lpm = 0, sum_tx = 0, sum_rx = 0, sum_total = 0;
@@ -256,11 +263,36 @@ function printEnergestResults() {
   log.log("Energest_RX: " + sum_rx + "\n");
   log.log("Energest_Total: " + sum_total + "\n");
 
-  log.log("\n--- Per-Node Energest (Ticks) ---\n");
-  log.log("Node | CPU | LPM | TX | RX | Total\n");
+  var p_cpu = 0, p_lpm = 0, p_tx = 0, p_rx = 0, p_total = 0;
+  if (sum_total > 0) {
+    p_cpu = (sum_cpu / sum_total) * I_CPU * V;
+    p_lpm = (sum_lpm / sum_total) * I_LPM * V;
+    p_tx  = (sum_tx / sum_total) * I_TX * V;
+    p_rx  = (sum_rx / sum_total) * I_RX * V;
+    p_total = p_cpu + p_lpm + p_tx + p_rx;
+  }
+
+  log.log("\n--- Network Average Power ---\n");
+  log.log("Power_CPU: " + p_cpu.toFixed(4) + "\n");
+  log.log("Power_LPM: " + p_lpm.toFixed(4) + "\n");
+  log.log("Power_TX: " + p_tx.toFixed(4) + "\n");
+  log.log("Power_RX: " + p_rx.toFixed(4) + "\n");
+  log.log("Power_Total: " + p_total.toFixed(4) + "\n");
+
+  log.log("\n--- Per-Node Power (mW) ---\n");
+  log.log("Node | CPU | LPM | TX | RX | Total (mW)\n");
   for (var n = 1; n <= nodeCount; n++) {
-    log.log(n + " | " + energest_cpu[n] + " | " + energest_lpm[n] + " | " +
-      energest_tx[n] + " | " + energest_rx[n] + " | " + energest_total[n] + "\n");
+    var np_cpu = 0, np_lpm = 0, np_tx = 0, np_rx = 0, np_total = 0;
+    var tot = energest_total[n];
+    if (tot > 0) {
+      np_cpu = (energest_cpu[n] / tot) * I_CPU * V;
+      np_lpm = (energest_lpm[n] / tot) * I_LPM * V;
+      np_tx  = (energest_tx[n] / tot) * I_TX * V;
+      np_rx  = (energest_rx[n] / tot) * I_RX * V;
+      np_total = np_cpu + np_lpm + np_tx + np_rx;
+    }
+    log.log(n + " | " + np_cpu.toFixed(4) + " | " + np_lpm.toFixed(4) + " | " +
+      np_tx.toFixed(4) + " | " + np_rx.toFixed(4) + " | " + np_total.toFixed(4) + "\n");
   }
 }
 
