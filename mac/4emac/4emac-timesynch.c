@@ -159,7 +159,7 @@ struct input_packet {
 rpl_rank_t
 get_current_instance_rank()
 {
-
+/* [Mavi Alp Research Proprietary Code Redacted] */
 }
 
 /*------------------------------------------------------------------------------
@@ -168,6 +168,7 @@ get_current_instance_rank()
 uint8_t
 tsch_timesynch_authority_level(void)
 {
+  /* [Mavi Alp Research Proprietary Code Redacted] */
   return authority_level;
 }
 
@@ -178,6 +179,7 @@ tsch_timesynch_authority_level(void)
 void
 tsch_timesynch_set_authority_level(uint8_t level)
 {
+  /* [Mavi Alp Research Proprietary Code Redacted] */
   authority_level = level;
 }
 
@@ -187,7 +189,7 @@ tsch_timesynch_set_authority_level(uint8_t level)
 void
 foure_timesynch_parent_switch_callback(rpl_parent_t *old, rpl_parent_t *new)
 {
-  
+  /* [Mavi Alp Research Proprietary Code Redacted] */
 }
 
 
@@ -197,6 +199,7 @@ foure_timesynch_parent_switch_callback(rpl_parent_t *old, rpl_parent_t *new)
 void
 rpl_foure_start_callback(uint8_t is_coordinator)
 {
+  /* [Mavi Alp Research Proprietary Code Redacted] */
   foure_timesynch_init(is_coordinator);
 }
 
@@ -206,7 +209,7 @@ rpl_foure_start_callback(uint8_t is_coordinator)
 uint8_t
 tsch_join(linkaddr_t *linkaddr, struct ieee802154_eb *eb)
 {
- 
+ /* [Mavi Alp Research Proprietary Code Redacted] */
 }
 
 /*------------------------------------------------------------------------------
@@ -218,7 +221,7 @@ tsch_join(linkaddr_t *linkaddr, struct ieee802154_eb *eb)
 void
 tsch_eb_input()
 {
- 
+ /* [Mavi Alp Research Proprietary Code Redacted] */
 }
 
 /*------------------------------------------------------------------------------
@@ -227,7 +230,7 @@ tsch_eb_input()
 void
 tsch_send_eb()
 {
-  
+  /* [Mavi Alp Research Proprietary Code Redacted] */
 }
 
 /*------------------------------------------------------------------------------------------
@@ -238,7 +241,7 @@ tsch_send_eb()
 void
 tsch_send_ka()
 {
- 
+ /* [Mavi Alp Research Proprietary Code Redacted] */
 }
 #endif /* FOURE_KA_ENABLE */
 
@@ -248,7 +251,7 @@ tsch_send_ka()
  */
 PROCESS_THREAD(foure_timesynch_process, ev, data)
 {
- 
+ /* [Mavi Alp Research Proprietary Code Redacted] */
 }
 
 #if INIT_RADIO_POLL_MODE_DURING_BOOT
@@ -258,7 +261,8 @@ PROCESS_THREAD(foure_timesynch_process, ev, data)
  */
 PT_THREAD(tsch_scan(struct pt *pt))
 {
-  }
+/* [Mavi Alp Research Proprietary Code Redacted] */  
+}
 #endif /* INIT_RADIO_POLL_MODE_DURING_BOOT */
 
 /*------------------------------------------------------------------------------
@@ -267,7 +271,7 @@ PT_THREAD(tsch_scan(struct pt *pt))
  */
 PROCESS_THREAD(foure_timesynch_hopping_process, ev, data)
 {
-
+/* [Mavi Alp Research Proprietary Code Redacted] */
 }
 
 #if FOURE_ADHOC_SYNC_ENABLED
@@ -307,7 +311,7 @@ PROCESS_THREAD(foure_adhoc_sync_process, ev, data)
 void
 foure_timesynch_init(int8_t synched_to_master)
 {
-
+/* [Mavi Alp Research Proprietary Code Redacted] */
 
 #if FOURE_ADHOC_SYNC_ENABLED
   /* Start Ad-Hoc Sync process */
