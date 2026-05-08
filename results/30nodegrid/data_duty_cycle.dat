@@ -1,0 +1,9 @@
+# duty_cycle (%) = (Energest_TX + Energest_RX) / Energest_Total * 100
+# 10-min intervals, n=5 runs, mean +- std
+# columns:  time_min   mean   std   n_runs
+      10          41.0503           5.6483   5
+      20          24.7840           3.4958   5
+      30          18.3327           2.6882   5
+      40          14.8198           1.9923   5
+      50          12.7555           1.5865   5
+      60          11.3737           1.3145   5
