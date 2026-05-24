@@ -1029,6 +1029,18 @@ function printUdpResults() {
     " PDR: " + PDR.toFixed(2) + "%" +
     " AvgDelay: " + avgDelay.toFixed(2) + "ms" +
     " BufferDrop: " + totalBufferDrop + "\n");
+
+  var unique_nodes_retrieved = 0;
+  for (var i = 2; i <= nodeCount; i++) {
+    var is_cached = (adhoc_cache[1][i] != undefined && adhoc_cache[1][i] > 0);
+    var is_received_direct = (Node_total_received[i] > 0);
+    if (is_cached || is_received_direct) {
+      unique_nodes_retrieved++;
+    }
+  }
+  var eta_sink = (unique_nodes_retrieved / (nodeCount - 1)) * 100;
+  log.log("Unique Nodes Retrieved at Sink: " + unique_nodes_retrieved + 
+    "/" + (nodeCount - 1) + " (" + eta_sink.toFixed(2) + "%)\n");
 }
 
 /* ===== Parse ADHOC_SYNC table line ===== */
