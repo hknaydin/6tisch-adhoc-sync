@@ -25,9 +25,9 @@
       org.contikios.cooja.mspmote.Exp5438MoteType
       <identifier>exp5438#1</identifier>
       <description>Exp5438 Mote Type exp5438#1</description>
-      <source EXPORT="discard">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-server/border-router-server.c</source>
-      <commands EXPORT="discard">make border-router-server.exp5438 TARGET=exp5438</commands>
-      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-server/border-router-server.exp5438</firmware>
+      <source EXPORT="discard">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-server_rpl/border-router-server_rpl.c</source>
+      <commands EXPORT="discard">make border-router-server_rpl.exp5438 TARGET=exp5438</commands>
+      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-server_rpl/border-router-server_rpl.exp5438</firmware>
       <moteinterface>org.contikios.cooja.interfaces.Position</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.RimeAddress</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.IPAddress</moteinterface>
@@ -44,9 +44,9 @@
       org.contikios.cooja.mspmote.Exp5438MoteType
       <identifier>exp5438#2</identifier>
       <description>Exp5438 Mote Type exp5438#2</description>
-      <source EXPORT="discard">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-client/border-router-client.c</source>
-      <commands EXPORT="discard">make border-router-client.exp5438 TARGET=exp5438</commands>
-      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-client/border-router-client.exp5438</firmware>
+      <source EXPORT="discard">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.c</source>
+      <commands EXPORT="discard">make border-router-client_rpl.exp5438 TARGET=exp5438</commands>
+      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438</firmware>
       <moteinterface>org.contikios.cooja.interfaces.Position</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.RimeAddress</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.IPAddress</moteinterface>
@@ -801,7 +801,7 @@
   <plugin>
     org.contikios.cooja.plugins.SimControl
     <width>280</width>
-    <z>2</z>
+    <z>3</z>
     <height>160</height>
     <location_x>1063</location_x>
     <location_y>3</location_y>
@@ -817,7 +817,7 @@
       <viewport>5.9854974523778015 0.0 0.0 5.9854974523778015 117.08800577919693 -12.753310203908027</viewport>
     </plugin_config>
     <width>1058</width>
-    <z>1</z>
+    <z>2</z>
     <height>938</height>
     <location_x>1</location_x>
     <location_y>1</location_y>
@@ -830,7 +830,7 @@
       <coloring />
     </plugin_config>
     <width>585</width>
-    <z>4</z>
+    <z>5</z>
     <height>240</height>
     <location_x>1061</location_x>
     <location_y>160</location_y>
@@ -885,7 +885,7 @@
       <zoomfactor>500.0</zoomfactor>
     </plugin_config>
     <width>1646</width>
-    <z>5</z>
+    <z>6</z>
     <height>166</height>
     <location_x>0</location_x>
     <location_y>820</location_y>
@@ -893,7 +893,7 @@
   <plugin>
     PowerTracker
     <width>400</width>
-    <z>3</z>
+    <z>4</z>
     <height>400</height>
     <location_x>1251</location_x>
     <location_y>370</location_y>
@@ -1464,10 +1464,21 @@ while (1) {
       <active>true</active>
     </plugin_config>
     <width>600</width>
-    <z>0</z>
+    <z>1</z>
     <height>700</height>
     <location_x>1042</location_x>
     <location_y>295</location_y>
+  </plugin>
+  <plugin>
+    Mobility
+    <plugin_config>
+      <positions EXPORT="copy">[APPS_DIR]/mobility/random40node_high.dat</positions>
+    </plugin_config>
+    <width>500</width>
+    <z>0</z>
+    <height>200</height>
+    <location_x>1147</location_x>
+    <location_y>119</location_y>
   </plugin>
 </simconf>
 
