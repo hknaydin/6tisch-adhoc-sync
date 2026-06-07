@@ -75,7 +75,7 @@
         org.contikios.cooja.mspmote.interfaces.MspMoteID
         <id>1</id>
       </interface_config>
-      <motetype_identifier>exp5438#1</motetype_identifier>
+      <motetype_identifier>exp5438#2</motetype_identifier>
     </mote>
     <mote>
       <breakpoints />
@@ -165,7 +165,7 @@
         org.contikios.cooja.mspmote.interfaces.MspMoteID
         <id>6</id>
       </interface_config>
-      <motetype_identifier>exp5438#2</motetype_identifier>
+      <motetype_identifier>exp5438#1</motetype_identifier>
     </mote>
     <mote>
       <breakpoints />
@@ -724,7 +724,7 @@
 TIMEOUT(3800000);
 
 /* ===== CONFIGURATION ===== */
-serverID = 1;
+serverID = 6;
 nodeCount = sim.getMotesCount();
 
 /* ===== UDP METRICS (mevcut) ===== */
@@ -1010,7 +1010,8 @@ function printUdpResults() {
   var avgDelay = 0;
   if (totalReceived &gt; 0) avgDelay = totaldelay / totalReceived;
 
-  for (var i = 2; i &lt;= nodeCount; i++) {
+  for (var i = 1; i &lt;= nodeCount; i++) {
+    if (i == serverID) continue;
     var nodePDR = 0;
     if (Node_total_send[i] &gt; 0) nodePDR = (Node_total_received[i] / Node_total_send[i]) * 100;
     var nodeAvgDelay = 0;
@@ -1031,9 +1032,10 @@ function printUdpResults() {
     " BufferDrop: " + totalBufferDrop + "\n");
 
   var unique_nodes_retrieved = 0;
-  for (var i = 2; i <= nodeCount; i++) {
-    var is_cached = (adhoc_cache[1][i] != undefined && adhoc_cache[1][i] > 0);
-    var is_received_direct = (Node_total_received[i] > 0);
+  for (var i = 1; i &lt;= nodeCount; i++) {
+    if (i == serverID) continue;
+    var is_cached = (adhoc_cache[serverID][i] != undefined &amp;&amp; adhoc_cache[serverID][i] &gt; 0);
+    var is_received_direct = (Node_total_received[i] &gt; 0);
     if (is_cached || is_received_direct) {
       unique_nodes_retrieved++;
     }
@@ -1229,7 +1231,7 @@ while (1) {
         var last = lastStr.substring(lastStr.lastIndexOf(":") + 1, lastStr.length);
         var senderID = parseInt(last, 16);
 
-        if (senderID &gt;= 2 &amp;&amp; senderID &lt;= nodeCount) {
+        if (senderID &gt;= 1 &amp;&amp; senderID &lt;= nodeCount &amp;&amp; senderID != serverID) {
           Node_total_received[senderID]++;
           timeReceived[senderID] = time;
           totalReceived++;
@@ -1258,7 +1260,7 @@ while (1) {
 
     // Buffer Drop
     if (msgArray[3] == "Drop" &amp;&amp; msgArray[4] == "DN") {
-      if (id != 1) {
+      if (id != serverID) {
         totalBufferDrop++;
         Node_buffer_drop[id]++;
       }
