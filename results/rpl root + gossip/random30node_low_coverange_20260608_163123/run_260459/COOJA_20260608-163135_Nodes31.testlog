@@ -1,0 +1,2107 @@
+Random seed: 260459
+
+8/6/2026  16:31:36
+Total motes: 31
+
+
+===== PERIODIC REPORT at 300.0 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 150
+RPL_DIS: 126
+RPL_DAO: 25
+RPL_Total: 301
+Adhoc_TX: 413
+Adhoc_RX: 1177
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 8.25
+Max Version Age: 24
+Perfect pairs (delta=0): 128/930 (13.8%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 46.7% (14/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 48.8%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 13 | 56 | 12 | 5 | 1 | 70.0%
+2 | 13 | 30 | 0 | 5 | 0 | 43.3%
+3 | 13 | 35 | 8 | 4 | 1 | 50.0%
+4 | 13 | 63 | 0 | 5 | 0 | 70.0%
+5 | 13 | 32 | 3 | 5 | 1 | 50.0%
+6 | 13 | 33 | 4 | 5 | 1 | 46.7%
+7 | 13 | 40 | 8 | 4 | 1 | 50.0%
+8 | 13 | 28 | 12 | 3 | 2 | 50.0%
+9 | 13 | 43 | 11 | 3 | 1 | 50.0%
+10 | 13 | 37 | 0 | 5 | 0 | 50.0%
+11 | 13 | 46 | 15 | 2 | 2 | 50.0%
+12 | 13 | 48 | 16 | 2 | 2 | 56.7%
+13 | 13 | 36 | 0 | 5 | 0 | 46.7%
+14 | 13 | 21 | 6 | 4 | 1 | 26.7%
+15 | 13 | 51 | 14 | 1 | 4 | 40.0%
+16 | 13 | 51 | 16 | 1 | 4 | 40.0%
+17 | 13 | 31 | 0 | 5 | 0 | 43.3%
+18 | 13 | 41 | 0 | 5 | 0 | 60.0%
+19 | 13 | 31 | 0 | 5 | 0 | 56.7%
+20 | 13 | 50 | 0 | 5 | 0 | 53.3%
+21 | 13 | 32 | 0 | 5 | 0 | 50.0%
+22 | 13 | 33 | 8 | 3 | 1 | 36.7%
+23 | 13 | 21 | 0 | 5 | 0 | 40.0%
+24 | 13 | 45 | 0 | 5 | 0 | 50.0%
+25 | 13 | 44 | 6 | 5 | 2 | 50.0%
+26 | 13 | 52 | 0 | 5 | 0 | 66.7%
+27 | 23 | 17 | 6 | 0 | 0 | 30.0%
+28 | 13 | 31 | 0 | 5 | 0 | 43.3%
+29 | 13 | 22 | 5 | 4 | 1 | 40.0%
+30 | 13 | 44 | 0 | 5 | 0 | 53.3%
+31 | 13 | 33 | 0 | 5 | 0 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 16100733
+Energest_LPM: 227694512
+Energest_TX: 219595
+Energest_RX: 189558135
+Energest_Total: 243795245
+
+--- Network Average Power ---
+Power_CPU: 0.3764
+Power_LPM: 0.1527
+Power_TX: 0.0540
+Power_RX: 41.2868
+Power_Total: 41.8700
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.2300 | 0.1569 | 0.0870 | 28.3545 | 28.8284
+2 | 0.1677 | 0.1587 | 0.0088 | 53.0885 | 53.4236
+3 | 0.1747 | 0.1585 | 0.0306 | 47.8807 | 48.2446
+4 | 0.1980 | 0.1578 | 0.0088 | 53.0885 | 53.4531
+5 | 0.1699 | 0.1586 | 0.0088 | 53.0885 | 53.4258
+6 | 0.1667 | 0.1587 | 0.0085 | 53.0887 | 53.4226
+7 | 0.1838 | 0.1582 | 0.0357 | 47.8965 | 48.2743
+8 | 0.2138 | 0.1574 | 0.0943 | 27.5433 | 28.0087
+9 | 0.2167 | 0.1573 | 0.0858 | 28.4047 | 28.8645
+10 | 0.1741 | 0.1585 | 0.0088 | 53.0885 | 53.4298
+11 | 0.2967 | 0.1550 | 0.1860 | 9.9931 | 10.6308
+12 | 0.2924 | 0.1551 | 0.1683 | 9.8704 | 10.4862
+13 | 0.1690 | 0.1587 | 0.0088 | 53.0885 | 53.4249
+14 | 0.1702 | 0.1586 | 0.0330 | 47.7783 | 48.1402
+15 | 0.3556 | 0.1533 | 0.2568 | 2.4985 | 3.2642
+16 | 0.3259 | 0.1542 | 0.2098 | 2.3067 | 2.9966
+17 | 0.1682 | 0.1587 | 0.0087 | 53.0885 | 53.4241
+18 | 0.1755 | 0.1585 | 0.0088 | 53.0885 | 53.4312
+19 | 0.1697 | 0.1586 | 0.0084 | 53.0888 | 53.4255
+20 | 0.1836 | 0.1582 | 0.0088 | 53.0885 | 53.4391
+21 | 0.1677 | 0.1587 | 0.0089 | 53.0884 | 53.4236
+22 | 0.2107 | 0.1575 | 0.1046 | 27.9593 | 28.4320
+23 | 0.1613 | 0.1589 | 0.0088 | 53.0885 | 53.4174
+24 | 0.1768 | 0.1584 | 0.0088 | 53.0885 | 53.4324
+25 | 0.1797 | 0.1583 | 0.0088 | 53.0885 | 53.4353
+26 | 0.1861 | 0.1582 | 0.0088 | 53.0885 | 53.4415
+27 | 5.7000 | 0.0000 | 0.1801 | 2.2179 | 8.0981
+28 | 0.1676 | 0.1587 | 0.0088 | 53.0885 | 53.4235
+29 | 0.1700 | 0.1586 | 0.0465 | 41.5954 | 41.9706
+30 | 0.1763 | 0.1584 | 0.0087 | 53.0885 | 53.4320
+31 | 0.1711 | 0.1586 | 0.0088 | 53.0885 | 53.4269
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 11 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 3 TX: 5 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 5 TX: 2 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 3 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 7 TX: 5 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 8 TX: 12 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 9 TX: 11 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 11 TX: 18 RX: 1 PDR: 5.6% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 16 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 14 TX: 5 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 20 RX: 3 PDR: 15.0% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 20 RX: 3 PDR: 15.0% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 18 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 21 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 22 TX: 11 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 25 TX: 2 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 28 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 29 TX: 7 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 31 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+
+Total TX: 148 RX: 7 PDR: 4.73% AvgDelay: 4657.84ms BufferDrop: 20
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 600.0 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 332
+RPL_DIS: 177
+RPL_DAO: 49
+RPL_Total: 558
+Adhoc_TX: 828
+Adhoc_RX: 2421
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 15.12
+Max Version Age: 48
+Perfect pairs (delta=0): 223/930 (24.0%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 26 | 135 | 19 | 6 | 2 | 70.0%
+2 | 26 | 51 | 5 | 9 | 1 | 43.3%
+3 | 26 | 91 | 11 | 4 | 1 | 50.0%
+4 | 26 | 86 | 0 | 10 | 0 | 70.0%
+5 | 26 | 68 | 8 | 5 | 2 | 50.0%
+6 | 26 | 93 | 14 | 6 | 2 | 60.0%
+7 | 26 | 100 | 11 | 4 | 1 | 50.0%
+8 | 26 | 77 | 20 | 3 | 3 | 50.0%
+9 | 26 | 97 | 14 | 3 | 2 | 50.0%
+10 | 26 | 61 | 8 | 7 | 1 | 50.0%
+11 | 26 | 125 | 17 | 2 | 3 | 50.0%
+12 | 27 | 119 | 23 | 2 | 3 | 56.7%
+13 | 26 | 63 | 11 | 7 | 1 | 46.7%
+14 | 26 | 51 | 8 | 4 | 1 | 26.7%
+15 | 26 | 117 | 15 | 1 | 5 | 40.0%
+16 | 26 | 113 | 17 | 1 | 5 | 40.0%
+17 | 26 | 65 | 10 | 6 | 1 | 43.3%
+18 | 26 | 82 | 11 | 7 | 1 | 60.0%
+19 | 26 | 53 | 6 | 9 | 1 | 56.7%
+20 | 26 | 82 | 14 | 7 | 2 | 53.3%
+21 | 26 | 52 | 6 | 9 | 1 | 50.0%
+22 | 26 | 95 | 8 | 3 | 2 | 36.7%
+23 | 26 | 29 | 0 | 10 | 0 | 40.0%
+24 | 26 | 67 | 10 | 9 | 1 | 50.0%
+25 | 26 | 89 | 13 | 6 | 2 | 50.0%
+26 | 26 | 80 | 13 | 8 | 1 | 66.7%
+27 | 47 | 41 | 7 | 0 | 0 | 30.0%
+28 | 26 | 54 | 7 | 9 | 1 | 43.3%
+29 | 26 | 51 | 13 | 4 | 2 | 40.0%
+30 | 26 | 85 | 13 | 6 | 1 | 53.3%
+31 | 26 | 49 | 0 | 10 | 0 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 39508662
+Energest_LPM: 508956418
+Energest_TX: 1015518
+Energest_RX: 301689888
+Energest_Total: 548539965
+
+--- Network Average Power ---
+Power_CPU: 0.4105
+Power_LPM: 0.1517
+Power_TX: 0.1111
+Power_RX: 29.2043
+Power_Total: 29.8776
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.3416 | 0.1537 | 0.2126 | 14.0351 | 14.7429
+2 | 0.1795 | 0.1584 | 0.0287 | 46.6521 | 47.0185
+3 | 0.2251 | 0.1570 | 0.0784 | 22.1337 | 22.5943
+4 | 0.1898 | 0.1581 | 0.0094 | 53.0900 | 53.4472
+5 | 0.2109 | 0.1575 | 0.0741 | 26.5882 | 27.0306
+6 | 0.2728 | 0.1557 | 0.1300 | 25.2793 | 25.8378
+7 | 0.2320 | 0.1568 | 0.0846 | 22.1431 | 22.6165
+8 | 0.2661 | 0.1559 | 0.1827 | 13.4491 | 14.0537
+9 | 0.2041 | 0.1570 | 0.0974 | 13.4755 | 13.9340
+10 | 0.1848 | 0.1582 | 0.0475 | 38.7148 | 39.1053
+11 | 0.3715 | 0.1528 | 0.2918 | 6.0226 | 6.8387
+12 | 0.3610 | 0.1531 | 0.2345 | 5.6570 | 6.4056
+13 | 0.1902 | 0.1580 | 0.0615 | 39.9031 | 40.3129
+14 | 0.1729 | 0.1585 | 0.0761 | 22.0618 | 22.4693
+15 | 0.4295 | 0.1512 | 0.4173 | 2.8432 | 3.8412
+16 | 0.3389 | 0.1538 | 0.2678 | 2.3101 | 3.0706
+17 | 0.1875 | 0.1581 | 0.0632 | 32.5113 | 32.9202
+18 | 0.2087 | 0.1575 | 0.0503 | 38.2863 | 38.7028
+19 | 0.1828 | 0.1583 | 0.0236 | 49.7804 | 50.1451
+20 | 0.2225 | 0.1571 | 0.0752 | 37.1137 | 37.5686
+21 | 0.1737 | 0.1585 | 0.0166 | 51.8554 | 52.2041
+22 | 0.2621 | 0.1560 | 0.2039 | 14.1020 | 14.7240
+23 | 0.1621 | 0.1589 | 0.0094 | 53.0900 | 53.4203
+24 | 0.1847 | 0.1582 | 0.0305 | 47.3791 | 47.7525
+25 | 0.2834 | 0.1554 | 0.1607 | 25.3786 | 25.9780
+26 | 0.1988 | 0.1578 | 0.0456 | 43.2073 | 43.6096
+27 | 5.7000 | 0.0000 | 0.2094 | 2.4062 | 8.3156
+28 | 0.1764 | 0.1584 | 0.0207 | 50.4736 | 50.8292
+29 | 0.2256 | 0.1570 | 0.1467 | 19.6388 | 20.1680
+30 | 0.2195 | 0.1572 | 0.0840 | 32.6646 | 33.1254
+31 | 0.1684 | 0.1587 | 0.0094 | 53.0900 | 53.4264
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 31 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 8 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 25 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 5 TX: 22 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 23 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 7
+ID: 7 TX: 25 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 7
+ID: 8 TX: 32 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 9 TX: 31 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 14 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 38 RX: 1 PDR: 2.6% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 36 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 13 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 25 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 39 RX: 3 PDR: 7.7% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 40 RX: 3 PDR: 7.5% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 18 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 14 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 6 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 15 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 4 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 31 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 8 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 21 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 10 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 28 TX: 6 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 27 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 18 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+
+Total TX: 580 RX: 7 PDR: 1.21% AvgDelay: 4657.84ms BufferDrop: 42
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 900.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 383
+RPL_DIS: 187
+RPL_DAO: 51
+RPL_Total: 621
+Adhoc_TX: 1255
+Adhoc_RX: 4085
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 22.38
+Max Version Age: 72
+Perfect pairs (delta=0): 269/930 (28.9%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 40 | 233 | 20 | 6 | 2 | 70.0%
+2 | 40 | 91 | 11 | 9 | 1 | 43.3%
+3 | 40 | 160 | 12 | 4 | 1 | 50.0%
+4 | 40 | 90 | 0 | 15 | 0 | 70.0%
+5 | 39 | 123 | 9 | 5 | 2 | 50.0%
+6 | 39 | 164 | 14 | 6 | 2 | 60.0%
+7 | 39 | 177 | 12 | 4 | 1 | 50.0%
+8 | 39 | 131 | 20 | 3 | 3 | 50.0%
+9 | 39 | 159 | 15 | 3 | 2 | 50.0%
+10 | 40 | 110 | 10 | 7 | 1 | 50.0%
+11 | 40 | 210 | 17 | 2 | 3 | 50.0%
+12 | 40 | 203 | 23 | 3 | 3 | 56.7%
+13 | 39 | 118 | 13 | 7 | 1 | 46.7%
+14 | 39 | 86 | 9 | 4 | 1 | 26.7%
+15 | 40 | 180 | 15 | 1 | 5 | 40.0%
+16 | 40 | 176 | 17 | 1 | 5 | 40.0%
+17 | 39 | 113 | 12 | 6 | 1 | 43.3%
+18 | 39 | 164 | 11 | 7 | 1 | 60.0%
+19 | 40 | 89 | 8 | 9 | 1 | 56.7%
+20 | 39 | 137 | 14 | 7 | 2 | 53.3%
+21 | 40 | 84 | 9 | 9 | 1 | 50.0%
+22 | 39 | 168 | 8 | 3 | 2 | 36.7%
+23 | 39 | 36 | 5 | 14 | 1 | 40.0%
+24 | 39 | 125 | 18 | 9 | 1 | 50.0%
+25 | 40 | 158 | 13 | 6 | 2 | 50.0%
+26 | 39 | 130 | 13 | 8 | 1 | 66.7%
+27 | 71 | 65 | 7 | 0 | 0 | 30.0%
+28 | 40 | 88 | 12 | 9 | 1 | 43.3%
+29 | 39 | 86 | 14 | 4 | 2 | 40.0%
+30 | 40 | 144 | 14 | 6 | 1 | 53.3%
+31 | 39 | 87 | 8 | 10 | 1 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 70893952
+Energest_LPM: 782317500
+Energest_TX: 2373286
+Energest_RX: 334919466
+Energest_Total: 853286337
+
+--- Network Average Power ---
+Power_CPU: 0.4736
+Power_LPM: 0.1499
+Power_TX: 0.1669
+Power_RX: 20.8420
+Power_Total: 21.6324
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.4712 | 0.1500 | 0.3047 | 10.0818 | 11.0077
+2 | 0.1896 | 0.1581 | 0.0696 | 30.5416 | 30.9589
+3 | 0.2319 | 0.1568 | 0.0985 | 14.7882 | 15.2754
+4 | 0.1821 | 0.1583 | 0.0098 | 53.0902 | 53.4404
+5 | 0.2127 | 0.1574 | 0.0954 | 17.6453 | 18.1108
+6 | 0.4321 | 0.1511 | 0.2379 | 17.4234 | 18.2445
+7 | 0.2386 | 0.1567 | 0.1030 | 14.7981 | 15.2964
+8 | 0.3544 | 0.1533 | 0.2849 | 9.5619 | 10.3547
+9 | 0.2084 | 0.1571 | 0.1091 | 9.2183 | 9.6929
+10 | 0.1919 | 0.1580 | 0.0808 | 25.4395 | 25.8702
+11 | 0.4914 | 0.1494 | 0.3771 | 4.9873 | 6.0053
+12 | 0.4616 | 0.1503 | 0.3309 | 4.5858 | 5.5286
+13 | 0.3201 | 0.1543 | 0.1384 | 26.5836 | 27.1964
+14 | 0.1789 | 0.1584 | 0.0967 | 14.7299 | 15.1638
+15 | 0.5493 | 0.1477 | 0.4666 | 3.0333 | 4.1970
+16 | 0.4139 | 0.1516 | 0.3652 | 2.4567 | 3.3874
+17 | 0.1979 | 0.1578 | 0.0928 | 21.4554 | 21.9040
+18 | 0.2331 | 0.1568 | 0.0809 | 25.1795 | 25.6503
+19 | 0.1927 | 0.1580 | 0.0673 | 32.5468 | 32.9648
+20 | 0.3602 | 0.1532 | 0.1802 | 24.8426 | 25.5362
+21 | 0.2398 | 0.1566 | 0.0896 | 34.0329 | 34.5189
+22 | 0.4421 | 0.1508 | 0.2481 | 10.1809 | 11.0220
+23 | 0.1639 | 0.1588 | 0.0119 | 52.6815 | 53.0162
+24 | 0.2077 | 0.1575 | 0.0722 | 31.0208 | 31.4582
+25 | 0.5060 | 0.1490 | 0.2627 | 17.6240 | 18.5416
+26 | 0.3365 | 0.1538 | 0.1342 | 28.7141 | 29.3387
+27 | 5.7000 | 0.0000 | 0.2442 | 2.5478 | 8.4920
+28 | 0.1885 | 0.1581 | 0.0677 | 32.9998 | 33.4140
+29 | 0.2967 | 0.1550 | 0.2476 | 13.5092 | 14.2085
+30 | 0.3005 | 0.1549 | 0.1496 | 21.7836 | 22.3886
+31 | 0.1869 | 0.1581 | 0.0555 | 38.0209 | 38.4215
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 51 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 28 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 45 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 0 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 5 TX: 42 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 43 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 8
+ID: 7 TX: 45 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 7
+ID: 8 TX: 52 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 9 TX: 51 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 34 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 58 RX: 1 PDR: 1.7% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 57 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 33 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 45 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 59 RX: 3 PDR: 5.1% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 60 RX: 3 PDR: 5.0% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 38 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 34 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 26 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 35 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 24 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 51 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 4 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 28 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 41 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 30 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 28 TX: 26 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 47 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 38 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 20 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 1145 RX: 7 PDR: 0.61% AvgDelay: 4657.84ms BufferDrop: 44
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 1200.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 426
+RPL_DIS: 193
+RPL_DAO: 52
+RPL_Total: 671
+Adhoc_TX: 1675
+Adhoc_RX: 5774
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 28.46
+Max Version Age: 96
+Perfect pairs (delta=0): 191/930 (20.5%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 53 | 322 | 20 | 7 | 2 | 70.0%
+2 | 52 | 140 | 13 | 9 | 1 | 43.3%
+3 | 53 | 223 | 12 | 4 | 1 | 50.0%
+4 | 53 | 111 | 5 | 19 | 1 | 70.0%
+5 | 52 | 170 | 9 | 5 | 2 | 50.0%
+6 | 53 | 231 | 14 | 6 | 2 | 60.0%
+7 | 53 | 250 | 13 | 4 | 1 | 50.0%
+8 | 53 | 190 | 20 | 3 | 3 | 50.0%
+9 | 52 | 221 | 16 | 3 | 2 | 50.0%
+10 | 53 | 151 | 13 | 7 | 1 | 50.0%
+11 | 53 | 297 | 17 | 3 | 3 | 50.0%
+12 | 54 | 292 | 23 | 3 | 3 | 56.7%
+13 | 52 | 176 | 13 | 7 | 1 | 46.7%
+14 | 52 | 119 | 9 | 4 | 1 | 26.7%
+15 | 53 | 250 | 15 | 1 | 5 | 40.0%
+16 | 53 | 237 | 17 | 1 | 5 | 40.0%
+17 | 52 | 150 | 12 | 6 | 1 | 43.3%
+18 | 53 | 240 | 11 | 7 | 1 | 60.0%
+19 | 53 | 120 | 13 | 9 | 1 | 56.7%
+20 | 52 | 196 | 16 | 7 | 2 | 53.3%
+21 | 53 | 122 | 13 | 9 | 1 | 50.0%
+22 | 52 | 231 | 8 | 3 | 2 | 36.7%
+23 | 53 | 74 | 7 | 14 | 1 | 40.0%
+24 | 53 | 195 | 24 | 9 | 1 | 50.0%
+25 | 53 | 233 | 13 | 6 | 2 | 50.0%
+26 | 52 | 171 | 15 | 8 | 1 | 66.7%
+27 | 95 | 90 | 7 | 0 | 0 | 30.0%
+28 | 53 | 123 | 13 | 9 | 1 | 43.3%
+29 | 52 | 119 | 14 | 4 | 2 | 40.0%
+30 | 53 | 206 | 18 | 6 | 1 | 53.3%
+31 | 52 | 124 | 13 | 10 | 1 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 104803516
+Energest_LPM: 1053156228
+Energest_TX: 3862937
+Energest_RX: 357042226
+Energest_Total: 1156069053
+
+--- Network Average Power ---
+Power_CPU: 0.5167
+Power_LPM: 0.1489
+Power_TX: 0.2005
+Power_RX: 16.3995
+Power_Total: 17.2657
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.5553 | 0.1476 | 0.3615 | 8.2289 | 9.2932
+2 | 0.2033 | 0.1577 | 0.0901 | 22.9184 | 23.3695
+3 | 0.2375 | 0.1567 | 0.1106 | 11.3114 | 11.8162
+4 | 0.1830 | 0.1582 | 0.0111 | 52.7470 | 53.0994
+5 | 0.2146 | 0.1573 | 0.1088 | 13.4133 | 13.8940
+6 | 0.5205 | 0.1486 | 0.2902 | 13.7033 | 14.6625
+7 | 0.2422 | 0.1566 | 0.1144 | 11.3221 | 11.8353
+8 | 0.4076 | 0.1518 | 0.3329 | 7.7199 | 8.6122
+9 | 0.2107 | 0.1571 | 0.1169 | 7.2045 | 7.6892
+10 | 0.1984 | 0.1578 | 0.0981 | 19.1520 | 19.6063
+11 | 0.5735 | 0.1471 | 0.4325 | 4.5207 | 5.6737
+12 | 0.5088 | 0.1489 | 0.3779 | 4.0783 | 5.1139
+13 | 0.4750 | 0.1499 | 0.1962 | 20.4214 | 21.2425
+14 | 0.1842 | 0.1582 | 0.1107 | 11.2618 | 11.7149
+15 | 0.6425 | 0.1451 | 0.5422 | 3.1547 | 4.4845
+16 | 0.4602 | 0.1503 | 0.4134 | 2.5296 | 3.5534
+17 | 0.1992 | 0.1578 | 0.1048 | 16.2155 | 16.6773
+18 | 0.2450 | 0.1565 | 0.0969 | 18.9685 | 19.4668
+19 | 0.1951 | 0.1579 | 0.0864 | 24.3839 | 24.8234
+20 | 0.4490 | 0.1506 | 0.2303 | 19.0317 | 19.8616
+21 | 0.2815 | 0.1554 | 0.1246 | 25.6226 | 26.1842
+22 | 0.5641 | 0.1473 | 0.2774 | 8.3367 | 9.3256
+23 | 0.1801 | 0.1583 | 0.0538 | 39.2296 | 39.6219
+24 | 0.2248 | 0.1571 | 0.0932 | 23.2778 | 23.7529
+25 | 0.6326 | 0.1454 | 0.3249 | 13.8794 | 14.9823
+26 | 0.4276 | 0.1512 | 0.1832 | 21.8622 | 22.6243
+27 | 5.7000 | 0.0000 | 0.2632 | 2.6269 | 8.5901
+28 | 0.1933 | 0.1580 | 0.0895 | 24.7270 | 25.1677
+29 | 0.3395 | 0.1538 | 0.2983 | 10.6104 | 11.4019
+30 | 0.3667 | 0.1621 | 0.2031 | 17.5656 | 18.2975
+31 | 0.1949 | 0.1579 | 0.0782 | 28.4199 | 28.8510
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 71 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 48 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 65 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 4 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 62 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 62 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 8
+ID: 7 TX: 65 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 8
+ID: 8 TX: 72 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 9 TX: 71 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 54 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 77 RX: 1 PDR: 1.3% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 76 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 53 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 65 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 79 RX: 3 PDR: 3.8% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 80 RX: 3 PDR: 3.8% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 57 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 54 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 45 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 54 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 44 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 71 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 24 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 48 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 61 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 50 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 28 TX: 46 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 66 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 58 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 40 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 1722 RX: 7 PDR: 0.41% AvgDelay: 4657.84ms BufferDrop: 47
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 1500.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 446
+RPL_DIS: 193
+RPL_DAO: 73
+RPL_Total: 712
+Adhoc_TX: 2100
+Adhoc_RX: 7644
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 35.35
+Max Version Age: 119
+Perfect pairs (delta=0): 267/930 (28.7%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 66 | 417 | 20 | 7 | 3 | 70.0%
+2 | 66 | 187 | 14 | 9 | 1 | 43.3%
+3 | 67 | 290 | 13 | 4 | 2 | 50.0%
+4 | 66 | 197 | 8 | 19 | 1 | 70.0%
+5 | 65 | 225 | 10 | 5 | 3 | 50.0%
+6 | 66 | 304 | 14 | 6 | 3 | 60.0%
+7 | 66 | 326 | 13 | 4 | 2 | 50.0%
+8 | 66 | 243 | 20 | 3 | 4 | 50.0%
+9 | 66 | 286 | 16 | 3 | 2 | 50.0%
+10 | 66 | 207 | 13 | 7 | 2 | 50.0%
+11 | 67 | 379 | 17 | 3 | 5 | 50.0%
+12 | 67 | 375 | 23 | 3 | 4 | 56.7%
+13 | 65 | 236 | 13 | 7 | 2 | 46.7%
+14 | 65 | 153 | 10 | 4 | 2 | 26.7%
+15 | 67 | 316 | 18 | 1 | 6 | 40.0%
+16 | 66 | 300 | 17 | 1 | 6 | 40.0%
+17 | 66 | 194 | 13 | 6 | 2 | 43.3%
+18 | 66 | 321 | 11 | 7 | 1 | 60.0%
+19 | 66 | 166 | 15 | 9 | 1 | 56.7%
+20 | 66 | 266 | 16 | 7 | 2 | 53.3%
+21 | 66 | 165 | 14 | 9 | 1 | 50.0%
+22 | 66 | 297 | 8 | 3 | 4 | 36.7%
+23 | 67 | 112 | 8 | 14 | 1 | 40.0%
+24 | 67 | 270 | 26 | 9 | 2 | 50.0%
+25 | 66 | 308 | 13 | 6 | 3 | 50.0%
+26 | 66 | 230 | 15 | 8 | 2 | 66.7%
+27 | 118 | 111 | 7 | 0 | 0 | 30.0%
+28 | 66 | 161 | 13 | 9 | 2 | 43.3%
+29 | 65 | 155 | 14 | 4 | 2 | 40.0%
+30 | 66 | 279 | 19 | 6 | 1 | 53.3%
+31 | 66 | 168 | 15 | 10 | 1 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 139707499
+Energest_LPM: 1321276303
+Energest_TX: 5404757
+Energest_RX: 370061047
+Energest_Total: 1458912285
+
+--- Network Average Power ---
+Power_CPU: 0.5458
+Power_LPM: 0.1481
+Power_TX: 0.2223
+Power_RX: 13.4691
+Power_Total: 14.3853
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.6016 | 0.1462 | 0.3930 | 7.1446 | 8.2855
+2 | 0.2071 | 0.1576 | 0.1015 | 18.4701 | 18.9363
+3 | 0.2426 | 0.1565 | 0.1169 | 9.2831 | 9.7992
+4 | 0.2063 | 0.1576 | 0.0442 | 42.0856 | 42.4937
+5 | 0.2158 | 0.1573 | 0.1160 | 10.9438 | 11.4329
+6 | 0.5666 | 0.1472 | 0.3300 | 11.5470 | 12.5908
+7 | 0.2475 | 0.1564 | 0.1208 | 9.2941 | 9.8188
+8 | 0.4474 | 0.1507 | 0.3720 | 6.6618 | 7.6319
+9 | 0.2154 | 0.1571 | 0.1231 | 6.0335 | 6.5290
+10 | 0.2450 | 0.1565 | 0.1214 | 15.5932 | 16.1161
+11 | 0.6229 | 0.1456 | 0.4640 | 4.2469 | 5.4794
+12 | 0.5502 | 0.1477 | 0.4152 | 3.8020 | 4.9152
+13 | 0.5548 | 0.1476 | 0.2271 | 16.8220 | 17.7515
+14 | 0.1854 | 0.1582 | 0.1163 | 9.2346 | 9.6945
+15 | 0.6959 | 0.1435 | 0.5873 | 3.2272 | 4.6539
+16 | 0.4913 | 0.1494 | 0.4514 | 2.5900 | 3.6821
+17 | 0.2031 | 0.1577 | 0.1142 | 13.1630 | 13.6379
+18 | 0.2495 | 0.1563 | 0.1056 | 15.3444 | 15.8559
+19 | 0.2123 | 0.1645 | 0.1048 | 20.4844 | 20.9661
+20 | 0.5189 | 0.1486 | 0.2621 | 15.6469 | 16.5765
+21 | 0.3089 | 0.1546 | 0.1445 | 20.7190 | 21.3271
+22 | 0.6332 | 0.1453 | 0.2936 | 7.2609 | 8.3331
+23 | 0.1846 | 0.1582 | 0.0720 | 31.3793 | 31.7941
+24 | 0.2376 | 0.1567 | 0.1050 | 18.7640 | 19.2633
+25 | 0.7143 | 0.1430 | 0.3609 | 11.6926 | 12.9108
+26 | 0.4758 | 0.1499 | 0.2116 | 17.8417 | 18.6789
+27 | 5.7000 | 0.0000 | 0.2765 | 2.6896 | 8.6661
+28 | 0.1951 | 0.1579 | 0.0995 | 19.8965 | 20.3489
+29 | 0.3736 | 0.1528 | 0.3175 | 8.9365 | 9.7804
+30 | 0.3939 | 0.1529 | 0.2265 | 14.2408 | 15.0141
+31 | 0.2043 | 0.1576 | 0.0916 | 22.8214 | 23.2750
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 91 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 68 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 85 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 24 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 81 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 82 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 8
+ID: 7 TX: 85 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 8
+ID: 8 TX: 92 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 9 TX: 91 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 74 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 97 RX: 1 PDR: 1.0% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 96 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 73 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 85 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 99 RX: 3 PDR: 3.0% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 100 RX: 3 PDR: 3.0% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 77 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 73 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 66 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 74 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 63 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 90 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 44 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 68 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 81 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 70 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 28 TX: 66 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 87 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 78 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 60 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 2320 RX: 7 PDR: 0.30% AvgDelay: 4657.84ms BufferDrop: 47
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 1800.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 489
+RPL_DIS: 195
+RPL_DAO: 84
+RPL_Total: 768
+Adhoc_TX: 2517
+Adhoc_RX: 9538
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 42.17
+Max Version Age: 143
+Perfect pairs (delta=0): 266/930 (28.6%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 79 | 517 | 20 | 9 | 4 | 70.0%
+2 | 79 | 231 | 15 | 9 | 2 | 43.3%
+3 | 80 | 357 | 18 | 4 | 2 | 50.0%
+4 | 79 | 286 | 9 | 19 | 1 | 70.0%
+5 | 79 | 279 | 14 | 5 | 3 | 50.0%
+6 | 79 | 378 | 17 | 6 | 3 | 60.0%
+7 | 79 | 402 | 18 | 4 | 2 | 50.0%
+8 | 80 | 294 | 24 | 3 | 4 | 50.0%
+9 | 78 | 351 | 21 | 3 | 4 | 50.0%
+10 | 79 | 265 | 13 | 7 | 2 | 50.0%
+11 | 80 | 463 | 20 | 3 | 5 | 50.0%
+12 | 79 | 459 | 26 | 3 | 4 | 56.7%
+13 | 78 | 288 | 13 | 7 | 2 | 46.7%
+14 | 79 | 189 | 10 | 4 | 2 | 26.7%
+15 | 80 | 380 | 21 | 1 | 6 | 40.0%
+16 | 79 | 362 | 17 | 1 | 6 | 40.0%
+17 | 79 | 241 | 13 | 6 | 2 | 43.3%
+18 | 79 | 398 | 11 | 7 | 2 | 60.0%
+19 | 79 | 217 | 16 | 9 | 2 | 56.7%
+20 | 80 | 337 | 16 | 7 | 3 | 53.3%
+21 | 79 | 208 | 14 | 9 | 1 | 50.0%
+22 | 79 | 366 | 8 | 3 | 4 | 36.7%
+23 | 80 | 143 | 8 | 14 | 2 | 40.0%
+24 | 80 | 348 | 27 | 9 | 2 | 50.0%
+25 | 80 | 385 | 15 | 6 | 3 | 50.0%
+26 | 79 | 294 | 15 | 8 | 2 | 66.7%
+27 | 142 | 134 | 7 | 0 | 0 | 30.0%
+28 | 79 | 200 | 14 | 9 | 2 | 43.3%
+29 | 78 | 192 | 14 | 4 | 3 | 40.0%
+30 | 79 | 360 | 19 | 6 | 2 | 53.3%
+31 | 79 | 214 | 16 | 10 | 2 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 174807079
+Energest_LPM: 1590917195
+Energest_TX: 6974925
+Energest_RX: 383203518
+Energest_Total: 1763652757
+
+--- Network Average Power ---
+Power_CPU: 0.5650
+Power_LPM: 0.1475
+Power_TX: 0.2373
+Power_RX: 11.5375
+Power_Total: 12.4872
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.6471 | 0.1449 | 0.4166 | 6.4432 | 7.6520
+2 | 0.2073 | 0.1576 | 0.1085 | 15.5556 | 16.0289
+3 | 0.2479 | 0.1564 | 0.1225 | 7.9581 | 8.4849
+4 | 0.2156 | 0.1573 | 0.0620 | 35.1008 | 35.5357
+5 | 0.2173 | 0.1573 | 0.1220 | 9.3274 | 9.8239
+6 | 0.6137 | 0.1459 | 0.3587 | 10.1415 | 11.2598
+7 | 0.2494 | 0.1563 | 0.1252 | 7.9681 | 8.4990
+8 | 0.4709 | 0.1500 | 0.3968 | 5.9685 | 6.9862
+9 | 0.2202 | 0.1570 | 0.1274 | 5.2676 | 5.7722
+10 | 0.2787 | 0.1555 | 0.1367 | 13.2641 | 13.8350
+11 | 0.6624 | 0.1445 | 0.4865 | 4.0724 | 5.3658
+12 | 0.5782 | 0.1469 | 0.4388 | 3.6176 | 4.7815
+13 | 0.6070 | 0.1461 | 0.2504 | 14.4698 | 15.4732
+14 | 0.1878 | 0.1581 | 0.1207 | 7.9090 | 8.3757
+15 | 0.7339 | 0.1424 | 0.6178 | 3.2776 | 4.7717
+16 | 0.5113 | 0.1488 | 0.4758 | 2.6282 | 3.7641
+17 | 0.2043 | 0.1576 | 0.1181 | 11.1604 | 11.6403
+18 | 0.2516 | 0.1563 | 0.1119 | 12.9719 | 13.4917
+19 | 0.2115 | 0.1633 | 0.1113 | 17.1018 | 17.5879
+20 | 0.5642 | 0.1473 | 0.2856 | 13.4351 | 14.4323
+21 | 0.3243 | 0.1542 | 0.1563 | 17.5044 | 18.1392
+22 | 0.6800 | 0.1440 | 0.3054 | 6.5583 | 7.6876
+23 | 0.1867 | 0.1581 | 0.0841 | 26.2358 | 26.6648
+24 | 0.2396 | 0.1566 | 0.1119 | 15.8042 | 16.3123
+25 | 0.7588 | 0.1417 | 0.3865 | 10.3234 | 11.6105
+26 | 0.5080 | 0.1489 | 0.2314 | 15.2328 | 16.1210
+27 | 5.7000 | 0.0000 | 0.2853 | 2.7381 | 8.7234
+28 | 0.1968 | 0.1579 | 0.1085 | 16.7355 | 17.1986
+29 | 0.3981 | 0.1521 | 0.3461 | 7.8390 | 8.7352
+30 | 0.4171 | 0.1521 | 0.2415 | 12.1038 | 12.9145
+31 | 0.2071 | 0.1576 | 0.1011 | 19.1551 | 19.6209
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 111 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 88 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 105 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 44 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 101 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 102 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 9
+ID: 7 TX: 105 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 8
+ID: 8 TX: 112 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 9 TX: 112 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 94 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 117 RX: 1 PDR: 0.9% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 116 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 93 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 105 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 118 RX: 3 PDR: 2.5% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 120 RX: 3 PDR: 2.5% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 97 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 93 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 85 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 94 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 83 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 110 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 64 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 87 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 101 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 90 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 28 TX: 86 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 106 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 98 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 79 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 2916 RX: 7 PDR: 0.24% AvgDelay: 4657.84ms BufferDrop: 48
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 2100.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 507
+RPL_DIS: 197
+RPL_DAO: 85
+RPL_Total: 789
+Adhoc_TX: 2938
+Adhoc_RX: 11534
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 49.12
+Max Version Age: 166
+Perfect pairs (delta=0): 282/930 (30.3%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 93 | 623 | 20 | 9 | 4 | 70.0%
+2 | 92 | 279 | 15 | 9 | 2 | 43.3%
+3 | 93 | 431 | 20 | 4 | 2 | 50.0%
+4 | 92 | 374 | 9 | 20 | 1 | 70.0%
+5 | 92 | 338 | 16 | 5 | 3 | 50.0%
+6 | 92 | 458 | 17 | 6 | 3 | 60.0%
+7 | 93 | 488 | 19 | 4 | 2 | 50.0%
+8 | 93 | 354 | 24 | 3 | 4 | 50.0%
+9 | 92 | 423 | 23 | 3 | 4 | 50.0%
+10 | 93 | 322 | 13 | 7 | 2 | 50.0%
+11 | 93 | 564 | 20 | 3 | 5 | 50.0%
+12 | 93 | 557 | 26 | 4 | 4 | 56.7%
+13 | 91 | 348 | 13 | 7 | 2 | 46.7%
+14 | 92 | 226 | 11 | 4 | 2 | 26.7%
+15 | 94 | 450 | 27 | 1 | 6 | 40.0%
+16 | 92 | 431 | 17 | 1 | 6 | 40.0%
+17 | 92 | 289 | 13 | 6 | 2 | 43.3%
+18 | 92 | 477 | 11 | 7 | 2 | 60.0%
+19 | 92 | 265 | 17 | 9 | 2 | 56.7%
+20 | 93 | 404 | 16 | 7 | 3 | 53.3%
+21 | 92 | 255 | 14 | 9 | 2 | 50.0%
+22 | 92 | 441 | 8 | 3 | 4 | 36.7%
+23 | 93 | 177 | 9 | 14 | 2 | 40.0%
+24 | 93 | 423 | 28 | 9 | 2 | 50.0%
+25 | 93 | 465 | 15 | 6 | 3 | 50.0%
+26 | 92 | 353 | 15 | 8 | 2 | 66.7%
+27 | 165 | 161 | 7 | 0 | 0 | 30.0%
+28 | 93 | 235 | 14 | 9 | 2 | 43.3%
+29 | 91 | 228 | 14 | 4 | 3 | 40.0%
+30 | 93 | 437 | 19 | 6 | 2 | 53.3%
+31 | 92 | 258 | 17 | 10 | 2 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 209690257
+Energest_LPM: 1860773840
+Energest_TX: 8541106
+Energest_RX: 396267902
+Energest_Total: 2068392580
+
+--- Network Average Power ---
+Power_CPU: 0.5779
+Power_LPM: 0.1471
+Power_TX: 0.2478
+Power_RX: 10.1730
+Power_Total: 11.1457
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.6716 | 0.1442 | 0.4329 | 5.9449 | 7.1937
+2 | 0.2087 | 0.1575 | 0.1137 | 13.4977 | 13.9777
+3 | 0.2497 | 0.1563 | 0.1252 | 7.0205 | 7.5518
+4 | 0.2218 | 0.1571 | 0.0741 | 30.1684 | 30.6214
+5 | 0.2178 | 0.1573 | 0.1254 | 8.1850 | 8.6854
+6 | 0.6522 | 0.1448 | 0.3789 | 9.1496 | 10.3255
+7 | 0.2509 | 0.1563 | 0.1273 | 7.0307 | 7.5652
+8 | 0.4905 | 0.1494 | 0.4161 | 5.4825 | 6.5385
+9 | 0.2222 | 0.1569 | 0.1294 | 4.7250 | 5.2335
+10 | 0.3001 | 0.1549 | 0.1489 | 11.6212 | 12.2251
+11 | 0.6884 | 0.1438 | 0.5025 | 3.9491 | 5.2838
+12 | 0.6006 | 0.1463 | 0.4569 | 3.4900 | 4.6938
+13 | 0.6411 | 0.1451 | 0.2656 | 12.8049 | 13.8567
+14 | 0.1901 | 0.1580 | 0.1238 | 6.9732 | 7.4452
+15 | 0.7597 | 0.1417 | 0.6400 | 3.3109 | 4.8524
+16 | 0.5239 | 0.1485 | 0.4939 | 2.6552 | 3.8214
+17 | 0.2063 | 0.1576 | 0.1227 | 9.7492 | 10.2359
+18 | 0.2521 | 0.1563 | 0.1164 | 11.2967 | 11.8215
+19 | 0.2102 | 0.1624 | 0.1157 | 14.7431 | 15.2315
+20 | 0.5940 | 0.1465 | 0.3025 | 11.8732 | 12.9161
+21 | 0.3385 | 0.1538 | 0.1651 | 15.2355 | 15.8929
+22 | 0.7085 | 0.1432 | 0.3116 | 6.0571 | 7.2204
+23 | 0.1887 | 0.1581 | 0.0933 | 22.6061 | 23.0462
+24 | 0.2401 | 0.1566 | 0.1121 | 13.7141 | 14.2229
+25 | 0.7969 | 0.1406 | 0.4037 | 9.3047 | 10.6460
+26 | 0.5251 | 0.1484 | 0.2459 | 13.3903 | 14.3097
+27 | 5.7000 | 0.0000 | 0.2916 | 2.7810 | 8.7726
+28 | 0.1964 | 0.1579 | 0.1128 | 14.5012 | 14.9683
+29 | 0.4159 | 0.1516 | 0.3673 | 7.0659 | 8.0006
+30 | 0.4272 | 0.1517 | 0.2530 | 10.6144 | 11.4463
+31 | 0.2090 | 0.1575 | 0.1082 | 16.5672 | 17.0419
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 131 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 108 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 125 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 64 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 122 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 122 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 10
+ID: 7 TX: 125 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 8
+ID: 8 TX: 132 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 9 TX: 131 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 114 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 137 RX: 1 PDR: 0.7% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 137 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 113 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 125 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 138 RX: 3 PDR: 2.2% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 140 RX: 3 PDR: 2.1% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 117 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 113 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 105 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 114 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 103 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 130 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 84 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 107 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 121 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 110 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 28 TX: 106 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 127 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 117 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 99 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 3517 RX: 7 PDR: 0.20% AvgDelay: 4657.84ms BufferDrop: 50
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 2400.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 524
+RPL_DIS: 199
+RPL_DAO: 92
+RPL_Total: 815
+Adhoc_TX: 3360
+Adhoc_RX: 13452
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 56.12
+Max Version Age: 190
+Perfect pairs (delta=0): 259/930 (27.8%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 106 | 722 | 20 | 10 | 4 | 70.0%
+2 | 105 | 327 | 15 | 9 | 2 | 43.3%
+3 | 106 | 504 | 20 | 4 | 3 | 50.0%
+4 | 105 | 456 | 10 | 20 | 2 | 70.0%
+5 | 105 | 387 | 17 | 5 | 4 | 50.0%
+6 | 105 | 534 | 21 | 6 | 4 | 60.0%
+7 | 106 | 567 | 20 | 4 | 2 | 50.0%
+8 | 106 | 416 | 24 | 3 | 4 | 50.0%
+9 | 105 | 491 | 23 | 3 | 4 | 50.0%
+10 | 106 | 376 | 13 | 7 | 2 | 50.0%
+11 | 106 | 660 | 20 | 4 | 5 | 50.0%
+12 | 106 | 652 | 26 | 4 | 5 | 56.7%
+13 | 105 | 405 | 13 | 7 | 2 | 46.7%
+14 | 106 | 262 | 11 | 4 | 2 | 26.7%
+15 | 107 | 521 | 35 | 1 | 7 | 40.0%
+16 | 106 | 498 | 17 | 1 | 6 | 40.0%
+17 | 106 | 329 | 14 | 6 | 3 | 43.3%
+18 | 106 | 549 | 11 | 7 | 2 | 60.0%
+19 | 105 | 309 | 17 | 9 | 2 | 56.7%
+20 | 106 | 472 | 16 | 7 | 3 | 53.3%
+21 | 105 | 301 | 14 | 9 | 2 | 50.0%
+22 | 105 | 513 | 8 | 3 | 4 | 36.7%
+23 | 106 | 215 | 9 | 14 | 2 | 40.0%
+24 | 107 | 503 | 28 | 9 | 2 | 50.0%
+25 | 106 | 536 | 15 | 6 | 3 | 50.0%
+26 | 105 | 409 | 15 | 8 | 2 | 66.7%
+27 | 189 | 188 | 7 | 0 | 0 | 30.0%
+28 | 107 | 270 | 15 | 9 | 2 | 43.3%
+29 | 105 | 264 | 14 | 4 | 3 | 40.0%
+30 | 106 | 511 | 19 | 6 | 2 | 53.3%
+31 | 105 | 305 | 17 | 10 | 2 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 244484596
+Energest_LPM: 2130724285
+Energest_TX: 10111500
+Energest_RX: 409341443
+Energest_Total: 2373137364
+
+--- Network Average Power ---
+Power_CPU: 0.5872
+Power_LPM: 0.1468
+Power_TX: 0.2556
+Power_RX: 9.1592
+Power_Total: 10.1489
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.6907 | 0.1437 | 0.4463 | 5.5778 | 6.8585
+2 | 0.2091 | 0.1575 | 0.1179 | 11.9675 | 12.4520
+3 | 0.2499 | 0.1563 | 0.1271 | 6.3235 | 6.8568
+4 | 0.2256 | 0.1570 | 0.0837 | 26.5015 | 26.9679
+5 | 0.2186 | 0.1572 | 0.1289 | 7.3375 | 7.8422
+6 | 0.6682 | 0.1443 | 0.3924 | 8.4089 | 9.6139
+7 | 0.2521 | 0.1563 | 0.1298 | 6.3346 | 6.8727
+8 | 0.5002 | 0.1492 | 0.4301 | 5.1187 | 6.1982
+9 | 0.2242 | 0.1569 | 0.1327 | 4.3243 | 4.8381
+10 | 0.3167 | 0.1544 | 0.1571 | 10.3977 | 11.0259
+11 | 0.7170 | 0.1429 | 0.5158 | 3.8603 | 5.2360
+12 | 0.6182 | 0.1458 | 0.4699 | 3.3957 | 4.6295
+13 | 0.6700 | 0.1443 | 0.2778 | 11.5691 | 12.6612
+14 | 0.1908 | 0.1580 | 0.1257 | 6.2767 | 6.7512
+15 | 0.7817 | 0.1411 | 0.6574 | 3.3465 | 4.9267
+16 | 0.5358 | 0.1481 | 0.5063 | 2.6749 | 3.8652
+17 | 0.2071 | 0.1576 | 0.1255 | 8.6986 | 9.1888
+18 | 0.2538 | 0.1562 | 0.1209 | 10.0531 | 10.5840
+19 | 0.2094 | 0.1618 | 0.1188 | 13.0050 | 13.4950
+20 | 0.6103 | 0.1460 | 0.3128 | 10.7073 | 11.7764
+21 | 0.3441 | 0.1536 | 0.1707 | 13.5451 | 14.2136
+22 | 0.7330 | 0.1425 | 0.3170 | 5.6870 | 6.8794
+23 | 0.1903 | 0.1580 | 0.1004 | 19.9074 | 20.3562
+24 | 0.2412 | 0.1566 | 0.1162 | 12.1593 | 12.6733
+25 | 0.8280 | 0.1398 | 0.4171 | 8.5477 | 9.9325
+26 | 0.5384 | 0.1481 | 0.2547 | 12.0167 | 12.9578
+27 | 5.7000 | 0.0000 | 0.2963 | 2.8118 | 8.8081
+28 | 0.1962 | 0.1579 | 0.1167 | 12.8405 | 13.3113
+29 | 0.4240 | 0.1513 | 0.3820 | 6.4881 | 7.4454
+30 | 0.4367 | 0.1514 | 0.2617 | 9.5174 | 10.3672
+31 | 0.2094 | 0.1575 | 0.1121 | 14.6398 | 15.1188
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 151 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 128 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 145 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 84 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 142 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 142 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 10
+ID: 7 TX: 145 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 9
+ID: 8 TX: 152 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 9 TX: 152 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 134 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 157 RX: 1 PDR: 0.6% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 157 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 133 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 145 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 158 RX: 3 PDR: 1.9% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 159 RX: 3 PDR: 1.9% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 137 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 133 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 125 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 134 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 123 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 151 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 104 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 127 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 140 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 130 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 28 TX: 126 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 147 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 138 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 119 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 4118 RX: 7 PDR: 0.17% AvgDelay: 4657.84ms BufferDrop: 52
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 2700.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 533
+RPL_DIS: 199
+RPL_DAO: 106
+RPL_Total: 838
+Adhoc_TX: 3781
+Adhoc_RX: 15487
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 63.18
+Max Version Age: 214
+Perfect pairs (delta=0): 217/930 (23.3%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 119 | 831 | 20 | 10 | 4 | 70.0%
+2 | 118 | 376 | 16 | 9 | 3 | 43.3%
+3 | 120 | 576 | 21 | 4 | 3 | 50.0%
+4 | 118 | 552 | 10 | 20 | 2 | 70.0%
+5 | 119 | 441 | 18 | 5 | 4 | 50.0%
+6 | 119 | 611 | 21 | 6 | 4 | 60.0%
+7 | 120 | 649 | 21 | 4 | 2 | 50.0%
+8 | 119 | 472 | 24 | 3 | 5 | 50.0%
+9 | 118 | 562 | 24 | 3 | 4 | 50.0%
+10 | 119 | 431 | 13 | 7 | 3 | 50.0%
+11 | 120 | 755 | 21 | 4 | 6 | 50.0%
+12 | 119 | 748 | 26 | 4 | 5 | 56.7%
+13 | 118 | 466 | 13 | 7 | 3 | 46.7%
+14 | 119 | 302 | 11 | 4 | 3 | 26.7%
+15 | 120 | 593 | 38 | 1 | 7 | 40.0%
+16 | 119 | 572 | 17 | 1 | 7 | 40.0%
+17 | 119 | 375 | 14 | 6 | 3 | 43.3%
+18 | 119 | 632 | 11 | 7 | 2 | 60.0%
+19 | 118 | 360 | 17 | 9 | 3 | 56.7%
+20 | 119 | 542 | 16 | 7 | 4 | 53.3%
+21 | 119 | 352 | 14 | 9 | 2 | 50.0%
+22 | 118 | 591 | 8 | 3 | 4 | 36.7%
+23 | 119 | 252 | 9 | 14 | 2 | 40.0%
+24 | 120 | 591 | 28 | 9 | 2 | 50.0%
+25 | 119 | 612 | 15 | 6 | 4 | 50.0%
+26 | 118 | 473 | 15 | 8 | 3 | 66.7%
+27 | 213 | 212 | 7 | 0 | 0 | 30.0%
+28 | 120 | 310 | 15 | 9 | 3 | 43.3%
+29 | 118 | 302 | 14 | 4 | 4 | 40.0%
+30 | 119 | 591 | 19 | 6 | 3 | 53.3%
+31 | 119 | 355 | 17 | 10 | 2 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 279150886
+Energest_LPM: 2400798053
+Energest_TX: 11679909
+Energest_RX: 422363667
+Energest_Total: 2677877422
+
+--- Network Average Power ---
+Power_CPU: 0.5942
+Power_LPM: 0.1466
+Power_TX: 0.2617
+Power_RX: 8.3751
+Power_Total: 9.3776
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.7079 | 0.1432 | 0.4550 | 5.2914 | 6.5975
+2 | 0.2086 | 0.1575 | 0.1204 | 10.7834 | 11.2699
+3 | 0.2518 | 0.1563 | 0.1299 | 5.7854 | 6.3235
+4 | 0.2284 | 0.1569 | 0.0906 | 23.6689 | 24.1449
+5 | 0.2186 | 0.1572 | 0.1310 | 6.6809 | 7.1877
+6 | 0.6838 | 0.1439 | 0.4046 | 7.7944 | 9.0267
+7 | 0.2519 | 0.1563 | 0.1312 | 5.7937 | 6.3330
+8 | 0.5125 | 0.1488 | 0.4407 | 4.8373 | 5.9393
+9 | 0.2249 | 0.1569 | 0.1346 | 4.0122 | 4.5286
+10 | 0.3288 | 0.1541 | 0.1635 | 9.4526 | 10.0990
+11 | 0.7312 | 0.1425 | 0.5247 | 3.7853 | 5.1838
+12 | 0.6299 | 0.1454 | 0.4797 | 3.3224 | 4.5775
+13 | 0.6886 | 0.1437 | 0.2859 | 10.6106 | 11.7289
+14 | 0.1908 | 0.1580 | 0.1276 | 5.7390 | 6.2154
+15 | 0.7939 | 0.1407 | 0.6699 | 3.4098 | 5.0143
+16 | 0.5428 | 0.1479 | 0.5174 | 2.6913 | 3.8993
+17 | 0.2066 | 0.1576 | 0.1271 | 7.8845 | 8.3758
+18 | 0.2533 | 0.1562 | 0.1227 | 9.0896 | 9.6218
+19 | 0.2095 | 0.1613 | 0.1220 | 11.6732 | 12.1660
+20 | 0.6271 | 0.1455 | 0.3212 | 9.8081 | 10.9019
+21 | 0.3506 | 0.1534 | 0.1765 | 12.2418 | 12.9224
+22 | 0.7530 | 0.1419 | 0.3219 | 5.4023 | 6.6192
+23 | 0.1902 | 0.1580 | 0.1047 | 17.8201 | 18.2731
+24 | 0.2421 | 0.1566 | 0.1198 | 10.9570 | 11.4755
+25 | 0.8441 | 0.1393 | 0.4272 | 7.9620 | 9.3726
+26 | 0.5527 | 0.1476 | 0.2624 | 10.9575 | 11.9203
+27 | 5.7000 | 0.0000 | 0.2999 | 2.8273 | 8.8272
+28 | 0.1964 | 0.1579 | 0.1197 | 11.5567 | 12.0307
+29 | 0.4370 | 0.1510 | 0.3948 | 6.0448 | 7.0275
+30 | 0.4404 | 0.1512 | 0.2671 | 8.6729 | 9.5317
+31 | 0.2101 | 0.1575 | 0.1156 | 13.1517 | 13.6350
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 171 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 148 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 165 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 105 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 162 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 162 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 10
+ID: 7 TX: 165 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 9
+ID: 8 TX: 171 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 9 TX: 171 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 154 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 177 RX: 1 PDR: 0.6% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 177 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 152 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 164 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 178 RX: 3 PDR: 1.7% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 179 RX: 3 PDR: 1.7% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 157 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 153 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 145 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 154 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 143 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 170 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 124 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 147 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 160 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 150 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 28 TX: 146 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 166 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 157 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 139 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 4712 RX: 7 PDR: 0.15% AvgDelay: 4657.84ms BufferDrop: 52
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 3000.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 540
+RPL_DIS: 199
+RPL_DAO: 114
+RPL_Total: 853
+Adhoc_TX: 4204
+Adhoc_RX: 17407
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 70.07
+Max Version Age: 238
+Perfect pairs (delta=0): 262/930 (28.2%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 132 | 932 | 20 | 10 | 5 | 70.0%
+2 | 131 | 424 | 16 | 9 | 3 | 43.3%
+3 | 133 | 645 | 21 | 4 | 3 | 50.0%
+4 | 131 | 640 | 11 | 20 | 2 | 70.0%
+5 | 131 | 498 | 18 | 5 | 4 | 50.0%
+6 | 132 | 687 | 21 | 6 | 4 | 60.0%
+7 | 133 | 724 | 21 | 4 | 3 | 50.0%
+8 | 133 | 524 | 24 | 3 | 5 | 50.0%
+9 | 132 | 625 | 24 | 3 | 5 | 50.0%
+10 | 133 | 493 | 13 | 7 | 3 | 50.0%
+11 | 134 | 847 | 21 | 4 | 6 | 50.0%
+12 | 132 | 838 | 26 | 4 | 5 | 56.7%
+13 | 131 | 524 | 13 | 7 | 3 | 46.7%
+14 | 133 | 337 | 11 | 4 | 3 | 26.7%
+15 | 133 | 657 | 41 | 1 | 7 | 40.0%
+16 | 132 | 636 | 17 | 1 | 7 | 40.0%
+17 | 132 | 424 | 14 | 6 | 3 | 43.3%
+18 | 132 | 711 | 11 | 7 | 3 | 60.0%
+19 | 132 | 406 | 18 | 9 | 3 | 56.7%
+20 | 132 | 607 | 16 | 7 | 4 | 53.3%
+21 | 132 | 397 | 14 | 9 | 3 | 50.0%
+22 | 132 | 663 | 8 | 3 | 5 | 36.7%
+23 | 132 | 286 | 10 | 14 | 2 | 40.0%
+24 | 133 | 670 | 28 | 9 | 3 | 50.0%
+25 | 133 | 686 | 15 | 6 | 4 | 50.0%
+26 | 131 | 535 | 15 | 8 | 3 | 66.7%
+27 | 237 | 237 | 7 | 0 | 0 | 30.0%
+28 | 133 | 346 | 15 | 9 | 3 | 43.3%
+29 | 132 | 338 | 14 | 4 | 4 | 40.0%
+30 | 133 | 668 | 19 | 6 | 3 | 53.3%
+31 | 132 | 402 | 18 | 10 | 3 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 313800401
+Energest_LPM: 2669011780
+Energest_TX: 13230911
+Energest_RX: 435368229
+Energest_Total: 2982620290
+
+--- Network Average Power ---
+Power_CPU: 0.5997
+Power_LPM: 0.1463
+Power_TX: 0.2662
+Power_RX: 7.7509
+Power_Total: 8.7631
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.7161 | 0.1430 | 0.4625 | 5.0625 | 6.3840
+2 | 0.2095 | 0.1575 | 0.1232 | 9.8420 | 10.3322
+3 | 0.2519 | 0.1563 | 0.1309 | 5.3541 | 5.8931
+4 | 0.2304 | 0.1569 | 0.0955 | 21.4131 | 21.8959
+5 | 0.2179 | 0.1572 | 0.1321 | 6.1571 | 6.6644
+6 | 0.6967 | 0.1435 | 0.4130 | 7.3022 | 8.5554
+7 | 0.2521 | 0.1563 | 0.1322 | 5.3624 | 5.9029
+8 | 0.5195 | 0.1486 | 0.4491 | 4.6119 | 5.7292
+9 | 0.2261 | 0.1569 | 0.1360 | 3.7631 | 4.2821
+10 | 0.3358 | 0.1539 | 0.1679 | 8.6977 | 9.3552
+11 | 0.7422 | 0.1422 | 0.5325 | 3.7264 | 5.1433
+12 | 0.6387 | 0.1452 | 0.4754 | 3.2615 | 4.5208
+13 | 0.7057 | 0.1433 | 0.2933 | 9.8485 | 10.9908
+14 | 0.1919 | 0.1580 | 0.1296 | 5.3122 | 5.7916
+15 | 0.8034 | 0.1405 | 0.6804 | 3.4603 | 5.0846
+16 | 0.5484 | 0.1478 | 0.5247 | 2.7011 | 3.9220
+17 | 0.2073 | 0.1576 | 0.1291 | 7.2377 | 7.7317
+18 | 0.2535 | 0.1562 | 0.1254 | 8.3239 | 8.8590
+19 | 0.2092 | 0.1609 | 0.1242 | 10.6181 | 11.1125
+20 | 0.6411 | 0.1451 | 0.3287 | 9.0938 | 10.2087
+21 | 0.3556 | 0.1533 | 0.1809 | 11.2040 | 11.8938
+22 | 0.7668 | 0.1415 | 0.3256 | 5.1749 | 6.4088
+23 | 0.1906 | 0.1580 | 0.1085 | 16.1594 | 16.6165
+24 | 0.2427 | 0.1533 | 0.1221 | 9.9991 | 10.5172
+25 | 0.8633 | 0.1387 | 0.4365 | 7.4981 | 8.9367
+26 | 0.5669 | 0.1472 | 0.2687 | 10.1148 | 11.0976
+27 | 5.7000 | 0.0000 | 0.3027 | 2.8420 | 8.8447
+28 | 0.1971 | 0.1578 | 0.1228 | 10.5357 | 11.0134
+29 | 0.4427 | 0.1508 | 0.4040 | 5.6901 | 6.6876
+30 | 0.4457 | 0.1510 | 0.2723 | 8.0062 | 8.8753
+31 | 0.2105 | 0.1575 | 0.1185 | 11.9665 | 12.4530
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 191 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 168 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 185 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 125 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 182 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 182 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 10
+ID: 7 TX: 185 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 9
+ID: 8 TX: 191 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 9 TX: 192 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 174 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 197 RX: 1 PDR: 0.5% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 197 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 172 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 184 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 198 RX: 3 PDR: 1.5% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 199 RX: 3 PDR: 1.5% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 177 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 173 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 165 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 174 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 163 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 191 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 144 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 167 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 180 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 170 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 28 TX: 166 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 187 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 178 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 159 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 5316 RX: 7 PDR: 0.13% AvgDelay: 4657.84ms BufferDrop: 52
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 3300.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 578
+RPL_DIS: 201
+RPL_DAO: 116
+RPL_Total: 895
+Adhoc_TX: 4624
+Adhoc_RX: 19391
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 76.88
+Max Version Age: 262
+Perfect pairs (delta=0): 314/930 (33.8%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 146 | 1034 | 20 | 11 | 5 | 70.0%
+2 | 144 | 473 | 16 | 9 | 3 | 43.3%
+3 | 146 | 716 | 26 | 4 | 3 | 50.0%
+4 | 144 | 731 | 11 | 21 | 2 | 70.0%
+5 | 144 | 557 | 23 | 5 | 4 | 50.0%
+6 | 145 | 771 | 24 | 6 | 5 | 60.0%
+7 | 146 | 809 | 26 | 4 | 3 | 50.0%
+8 | 146 | 585 | 28 | 3 | 5 | 50.0%
+9 | 145 | 695 | 29 | 3 | 5 | 50.0%
+10 | 146 | 547 | 13 | 7 | 3 | 50.0%
+11 | 147 | 943 | 24 | 4 | 6 | 50.0%
+12 | 146 | 928 | 30 | 4 | 5 | 56.7%
+13 | 144 | 588 | 13 | 7 | 3 | 46.7%
+14 | 146 | 370 | 11 | 4 | 3 | 26.7%
+15 | 146 | 728 | 41 | 1 | 7 | 40.0%
+16 | 146 | 706 | 17 | 1 | 7 | 40.0%
+17 | 145 | 471 | 14 | 6 | 3 | 43.3%
+18 | 146 | 791 | 12 | 7 | 3 | 60.0%
+19 | 145 | 454 | 18 | 9 | 3 | 56.7%
+20 | 144 | 671 | 16 | 7 | 4 | 53.3%
+21 | 145 | 443 | 14 | 9 | 3 | 50.0%
+22 | 144 | 730 | 8 | 3 | 5 | 36.7%
+23 | 146 | 325 | 10 | 14 | 3 | 40.0%
+24 | 147 | 753 | 29 | 9 | 3 | 50.0%
+25 | 146 | 763 | 17 | 6 | 4 | 50.0%
+26 | 145 | 595 | 15 | 8 | 3 | 66.7%
+27 | 261 | 261 | 7 | 0 | 0 | 30.0%
+28 | 147 | 385 | 15 | 9 | 3 | 43.3%
+29 | 145 | 372 | 14 | 4 | 4 | 40.0%
+30 | 146 | 743 | 19 | 6 | 3 | 53.3%
+31 | 145 | 453 | 18 | 10 | 3 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 348655935
+Energest_LPM: 2938817972
+Energest_TX: 14775279
+Energest_RX: 448344329
+Energest_Total: 3287370854
+
+--- Network Average Power ---
+Power_CPU: 0.6045
+Power_LPM: 0.1462
+Power_TX: 0.2697
+Power_RX: 7.2420
+Power_Total: 8.2624
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.7256 | 0.1427 | 0.4678 | 4.8751 | 6.2112
+2 | 0.2097 | 0.1575 | 0.1250 | 9.0735 | 9.5656
+3 | 0.2533 | 0.1562 | 0.1323 | 5.0040 | 5.5458
+4 | 0.2279 | 0.1568 | 0.0998 | 19.5749 | 20.0593
+5 | 0.2181 | 0.1572 | 0.1335 | 5.7307 | 6.2396
+6 | 0.7035 | 0.1433 | 0.4214 | 6.9032 | 8.1713
+7 | 0.2537 | 0.1562 | 0.1336 | 5.0121 | 5.5557
+8 | 0.5288 | 0.1483 | 0.4569 | 4.4303 | 5.5644
+9 | 0.2270 | 0.1569 | 0.1365 | 3.5588 | 4.0792
+10 | 0.3425 | 0.1537 | 0.1717 | 8.0830 | 8.7508
+11 | 0.7515 | 0.1419 | 0.5377 | 3.6764 | 5.1076
+12 | 0.6475 | 0.1449 | 0.4840 | 3.2145 | 4.4910
+13 | 0.7203 | 0.1428 | 0.2993 | 9.2273 | 10.3897
+14 | 0.1935 | 0.1579 | 0.1314 | 4.9641 | 5.4470
+15 | 0.8116 | 0.1402 | 0.6722 | 3.4979 | 5.1219
+16 | 0.5550 | 0.1476 | 0.5323 | 2.7121 | 3.9470
+17 | 0.2085 | 0.1575 | 0.1308 | 6.7111 | 7.2079
+18 | 0.2532 | 0.1562 | 0.1264 | 7.6983 | 8.2341
+19 | 0.2091 | 0.1606 | 0.1261 | 9.7621 | 10.2578
+20 | 0.6526 | 0.1448 | 0.3345 | 8.5106 | 9.6425
+21 | 0.3583 | 0.1532 | 0.1839 | 10.3570 | 11.0524
+22 | 0.7823 | 0.1411 | 0.3283 | 4.9895 | 6.2411
+23 | 0.1911 | 0.1580 | 0.1118 | 14.8065 | 15.2674
+24 | 0.2436 | 0.1536 | 0.1247 | 9.2194 | 9.7413
+25 | 0.8777 | 0.1383 | 0.4424 | 7.1162 | 8.5747
+26 | 0.5731 | 0.1471 | 0.2741 | 9.4273 | 10.4217
+27 | 5.7000 | 0.0000 | 0.3046 | 2.8446 | 8.8491
+28 | 0.1965 | 0.1579 | 0.1242 | 9.7019 | 10.1805
+29 | 0.4530 | 0.1505 | 0.4132 | 5.4038 | 6.4205
+30 | 0.4510 | 0.1508 | 0.2763 | 7.4646 | 8.3428
+31 | 0.2110 | 0.1574 | 0.1206 | 11.0003 | 11.4893
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 211 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 188 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 205 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 145 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 202 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 201 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 11
+ID: 7 TX: 205 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 9
+ID: 8 TX: 211 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 9 TX: 212 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 194 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 217 RX: 1 PDR: 0.5% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 217 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 192 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 204 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 218 RX: 3 PDR: 1.4% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 219 RX: 3 PDR: 1.4% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 197 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 193 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 185 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 194 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 183 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 210 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 164 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 187 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 200 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 190 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 28 TX: 186 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 206 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 198 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 179 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 5913 RX: 7 PDR: 0.12% AvgDelay: 4657.84ms BufferDrop: 54
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+
+
+===== PERIODIC REPORT at 3600.1 s =====
+
+========== AD-HOC SYNC RESULTS ==========
+
+--- Control Overhead ---
+RPL_DIO: 588
+RPL_DIS: 203
+RPL_DAO: 126
+RPL_Total: 917
+Adhoc_TX: 5048
+Adhoc_RX: 21306
+
+--- Convergence Time ---
+Converged nodes: 0/31
+
+--- Version Age (at simulation end) ---
+Avg Version Age: 83.93
+Max Version Age: 286
+Perfect pairs (delta=0): 290/930 (31.2%)
+
+--- Single-Contact Retrieval (eta_sc) ---
+  Node 1: 70.0% (21/30)
+  Node 2: 43.3% (13/30)
+  Node 3: 50.0% (15/30)
+  Node 4: 70.0% (21/30)
+  Node 5: 50.0% (15/30)
+  Node 6: 60.0% (18/30)
+  Node 7: 50.0% (15/30)
+  Node 8: 50.0% (15/30)
+  Node 9: 50.0% (15/30)
+  Node 10: 50.0% (15/30)
+  Node 11: 50.0% (15/30)
+  Node 12: 56.7% (17/30)
+  Node 13: 46.7% (14/30)
+  Node 14: 26.7% (8/30)
+  Node 15: 40.0% (12/30)
+  Node 16: 40.0% (12/30)
+  Node 17: 43.3% (13/30)
+  Node 18: 60.0% (18/30)
+  Node 19: 56.7% (17/30)
+  Node 20: 53.3% (16/30)
+  Node 21: 50.0% (15/30)
+  Node 22: 36.7% (11/30)
+  Node 23: 40.0% (12/30)
+  Node 24: 50.0% (15/30)
+  Node 25: 50.0% (15/30)
+  Node 26: 66.7% (20/30)
+  Node 27: 30.0% (9/30)
+  Node 28: 43.3% (13/30)
+  Node 29: 40.0% (12/30)
+  Node 30: 53.3% (16/30)
+  Node 31: 50.0% (15/30)
+Avg eta_sc: 49.2%
+Min eta_sc: 26.7%
+Max eta_sc: 70.0%
+
+--- Per-Node Summary ---
+Node | AdhocTX | AdhocRX | DIO | DIS | DAO | eta_sc
+1 | 159 | 1131 | 20 | 12 | 5 | 70.0%
+2 | 157 | 517 | 16 | 9 | 4 | 43.3%
+3 | 159 | 786 | 28 | 4 | 4 | 50.0%
+4 | 158 | 820 | 11 | 21 | 3 | 70.0%
+5 | 158 | 610 | 24 | 5 | 5 | 50.0%
+6 | 159 | 851 | 24 | 6 | 5 | 60.0%
+7 | 159 | 889 | 28 | 4 | 3 | 50.0%
+8 | 159 | 643 | 28 | 3 | 5 | 50.0%
+9 | 159 | 761 | 30 | 3 | 5 | 50.0%
+10 | 160 | 598 | 13 | 7 | 3 | 50.0%
+11 | 160 | 1035 | 24 | 4 | 6 | 50.0%
+12 | 159 | 1020 | 30 | 5 | 5 | 56.7%
+13 | 157 | 645 | 13 | 7 | 4 | 46.7%
+14 | 159 | 403 | 12 | 4 | 4 | 26.7%
+15 | 159 | 799 | 41 | 1 | 8 | 40.0%
+16 | 159 | 779 | 17 | 1 | 8 | 40.0%
+17 | 158 | 516 | 15 | 6 | 4 | 43.3%
+18 | 159 | 866 | 12 | 7 | 3 | 60.0%
+19 | 159 | 499 | 18 | 9 | 3 | 56.7%
+20 | 158 | 739 | 16 | 7 | 4 | 53.3%
+21 | 158 | 486 | 14 | 9 | 3 | 50.0%
+22 | 158 | 801 | 8 | 3 | 5 | 36.7%
+23 | 159 | 354 | 11 | 14 | 3 | 40.0%
+24 | 160 | 831 | 29 | 9 | 3 | 50.0%
+25 | 159 | 843 | 17 | 6 | 5 | 50.0%
+26 | 158 | 654 | 15 | 8 | 3 | 66.7%
+27 | 285 | 285 | 7 | 0 | 0 | 30.0%
+28 | 160 | 422 | 16 | 9 | 3 | 43.3%
+29 | 159 | 409 | 14 | 4 | 4 | 40.0%
+30 | 159 | 817 | 19 | 6 | 3 | 53.3%
+31 | 159 | 497 | 18 | 10 | 3 | 50.0%
+
+========== ENERGEST RESULTS ==========
+Energest_CPU: 383415712
+Energest_LPM: 3208804241
+Energest_TX: 16333822
+Energest_RX: 461254668
+Energest_Total: 3592116900
+
+--- Network Average Power ---
+Power_CPU: 0.6084
+Power_LPM: 0.1461
+Power_TX: 0.2728
+Power_RX: 6.8184
+Power_Total: 7.8457
+
+--- Per-Node Power (mW) ---
+Node | CPU | LPM | TX | RX | Total (mW)
+1 | 0.7333 | 0.1425 | 0.4722 | 4.7196 | 6.0675
+2 | 0.2103 | 0.1575 | 0.1268 | 8.4353 | 8.9299
+3 | 0.2544 | 0.1562 | 0.1335 | 4.6866 | 5.2307
+4 | 0.2295 | 0.1568 | 0.1034 | 18.0485 | 18.5381
+5 | 0.2184 | 0.1572 | 0.1344 | 5.3768 | 5.8868
+6 | 0.7131 | 0.1430 | 0.4271 | 6.5706 | 7.8538
+7 | 0.2551 | 0.1562 | 0.1348 | 4.7214 | 5.2675
+8 | 0.5298 | 0.1483 | 0.4611 | 4.2756 | 5.4148
+9 | 0.2275 | 0.1569 | 0.1371 | 3.3896 | 3.9112
+10 | 0.3488 | 0.1535 | 0.1755 | 7.5740 | 8.2517
+11 | 0.7573 | 0.1418 | 0.5422 | 3.6351 | 5.0763
+12 | 0.6495 | 0.1449 | 0.4892 | 3.1718 | 4.4553
+13 | 0.7341 | 0.1424 | 0.3042 | 8.7116 | 9.8923
+14 | 0.1944 | 0.1579 | 0.1327 | 4.6744 | 5.1594
+15 | 0.8166 | 0.1401 | 0.6791 | 3.5307 | 5.1664
+16 | 0.5579 | 0.1475 | 0.5373 | 2.7192 | 3.9620
+17 | 0.2087 | 0.1575 | 0.1319 | 6.2734 | 6.7715
+18 | 0.2544 | 0.1562 | 0.1291 | 7.1819 | 7.7216
+19 | 0.2094 | 0.1603 | 0.1278 | 9.0536 | 9.5512
+20 | 0.6610 | 0.1445 | 0.3392 | 8.0267 | 9.1714
+21 | 0.3607 | 0.1532 | 0.1865 | 9.6541 | 10.3544
+22 | 0.7939 | 0.1407 | 0.3305 | 4.8353 | 6.1004
+23 | 0.1920 | 0.1580 | 0.1149 | 13.6830 | 14.1478
+24 | 0.2435 | 0.1539 | 0.1259 | 8.5700 | 9.0932
+25 | 0.8959 | 0.1378 | 0.4481 | 6.8026 | 8.2844
+26 | 0.5804 | 0.1469 | 0.2781 | 8.8556 | 9.8609
+27 | 5.7000 | 0.0000 | 0.3063 | 2.8473 | 8.8535
+28 | 0.1967 | 0.1579 | 0.1259 | 9.0107 | 9.4911
+29 | 0.4566 | 0.1504 | 0.4181 | 5.1613 | 6.1865
+30 | 0.4574 | 0.1506 | 0.2803 | 7.0180 | 7.9064
+31 | 0.2109 | 0.1574 | 0.1222 | 10.1977 | 10.6883
+
+========== UDP PDR/LATENCY RESULTS ==========
+ID: 1 TX: 231 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 2 TX: 208 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 3 TX: 223 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 2
+ID: 4 TX: 165 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 5 TX: 221 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 1
+ID: 6 TX: 221 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 12
+ID: 7 TX: 225 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 9
+ID: 8 TX: 231 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 9 TX: 231 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 2
+ID: 10 TX: 214 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 3
+ID: 11 TX: 237 RX: 1 PDR: 0.4% AvgDelay: 15848.7ms Switches: 0 BufDrop: 0
+ID: 12 TX: 237 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 13 TX: 212 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 14 TX: 224 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 15 TX: 237 RX: 3 PDR: 1.3% AvgDelay: 2600.3ms Switches: 0 BufDrop: 1
+ID: 16 TX: 239 RX: 3 PDR: 1.3% AvgDelay: 2985.0ms Switches: 0 BufDrop: 0
+ID: 17 TX: 217 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 18 TX: 213 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 19 TX: 205 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 20 TX: 214 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 4
+ID: 21 TX: 203 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 22 TX: 230 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 23 TX: 184 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 0
+ID: 24 TX: 207 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+ID: 25 TX: 220 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 2 BufDrop: 2
+ID: 26 TX: 210 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 3
+ID: 28 TX: 206 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 0
+ID: 29 TX: 226 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 30 TX: 218 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 0 BufDrop: 1
+ID: 31 TX: 199 RX: 0 PDR: 0.0% AvgDelay: 0.0ms Switches: 1 BufDrop: 1
+
+Total TX: 6508 RX: 7 PDR: 0.11% AvgDelay: 4657.84ms BufferDrop: 56
+Unique Nodes Retrieved at Sink: 9/30 (30.00%)
+===== END REPORT =====
+TEST TIMEOUT
+TEST FAILED
+Test ended at simulation time: 3800000000
