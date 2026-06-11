@@ -1,15 +1,14 @@
 # parse_logs.py — Cooja Test Log Parser
-
+<p>
 A Python utility for parsing Cooja `.testlog` files produced by ad-hoc
 synchronisation experiments on the IEEE 802.15.4e TSCH / 6TiSCH stack.
 The script extracts **periodic report blocks** from each log, aggregates
 the final-state metrics across multiple runs of the same scenario, and
 exports per-scenario summary and time-series CSV files ready for
-plotting and statistical analysis.
+plotting and statistical analysis.</p>
 
-It is designed to work with the Cooja headless (`-nogui`) workflow
-where each simulation run writes its output to a timestamped
-`COOJA_<timestamp>_Nodes<N>.testlog` file.
+<p> 
+It is designed to work with the Cooja headless (`-nogui`) workflow where each simulation run writes its output to a timestamped `COOJA_<timestamp>_Nodes<N>.testlog` file. </p>
 
 ---
 
@@ -47,10 +46,10 @@ python3 --version
 ---
 
 ## Installation
-
+<p>
 Place `parse_logs.py` anywhere convenient. The natural location is your
 Cooja working directory so the script can find the `.testlog` files
-written by the simulator:
+written by the simulator: </p>
 
 ````
 cooja/
@@ -69,10 +68,7 @@ No build step is needed — the script is self-contained.
 ---
 
 ## Expected Log Format
-
-The parser is tightly coupled to the periodic report format emitted by
-the modified 6TiSCH stack. Every block the script understands looks
-like this:
+<p> The parser is tightly coupled to the periodic report format emitted by the modified 6TiSCH stack. Every block the script understands looks like this: </p>
 
 ````
 ===== PERIODIC REPORT at 1500.0 s =====
@@ -117,11 +113,11 @@ Random seed: 824233
 ````
 
 and is captured as the `seed` field for traceability.
-
+<p>
 A single `.testlog` may contain many of these report blocks (one every
 few simulated minutes); the parser extracts **every** block and uses
 the **final** one for the aggregated summary while the **full series**
-is exported for plotting.
+is exported for plotting.</p>
 
 The extracted metric keys are:
 
@@ -349,8 +345,7 @@ You will end up with `summary/30_grid_summary.csv`,
 `summary/30_random_summary.csv`, and so on — concatenate them in
 pandas to build a four-row table for the paper.
 
-If you do not want a folder hierarchy, you can also pass file lists
-explicitly:
+If you do not want a folder hierarchy, you can also pass file lists explicitly:
 
 ````bash
 python3 parse_logs.py \
@@ -362,8 +357,7 @@ python3 parse_logs.py \
     --out-dir ./summary
 ````
 
-This is the safest approach when many unrelated `.testlog` files share
-a directory.
+This is the safest approach when many unrelated `.testlog` files share a directory.
 
 ---
 
@@ -405,8 +399,7 @@ for seed, sub in raw.groupby("seed"):
 
 ### `FileNotFoundError: ./summary/<scenario>/_timeseries.csv`
 
-Caused by a trailing slash in `--scenario`. The parser sanitises this
-automatically in current versions; if you still see it, upgrade or
+Caused by a trailing slash in `--scenario`. The parser sanitises this automatically in current versions; if you still see it, upgrade or
 remove the trailing slash:
 
 ````bash
@@ -455,9 +448,9 @@ No. Each invocation processes one scenario, and the bash loop in
 [Multi-Scenario Workflow](#multi-scenario-workflow) handles all four.
 
 **Q. Can I parse a log file that is still being written?**
-Yes, but the `min-duration` filter will likely skip it until the
+<p> Yes, but the `min-duration` filter will likely skip it until the
 simulation ends. The parser only reads the file once, so it does not
-follow live updates.
+follow live updates. <p>
 
 **Q. Why does `n` differ from `n_runs` in the time-series?**
 Because not every run necessarily produced a snapshot at every
