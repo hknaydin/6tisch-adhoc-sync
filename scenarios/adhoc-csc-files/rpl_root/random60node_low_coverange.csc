@@ -25,9 +25,9 @@
       org.contikios.cooja.mspmote.Exp5438MoteType
       <identifier>exp5438#1</identifier>
       <description>Exp5438 Mote Type exp5438#1</description>
-      <source EXPORT="discard">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-server/border-router-server.c</source>
-      <commands EXPORT="discard">make border-router-server.exp5438 TARGET=exp5438</commands>
-      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-server/border-router-server.exp5438</firmware>
+      <source EXPORT="discard">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-server_rpl/border-router-server_rpl.c</source>
+      <commands EXPORT="discard">make border-router-server_rpl.exp5438 TARGET=exp5438</commands>
+      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-server_rpl/border-router-server_rpl.exp5438</firmware>
       <moteinterface>org.contikios.cooja.interfaces.Position</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.RimeAddress</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.IPAddress</moteinterface>
@@ -44,9 +44,9 @@
       org.contikios.cooja.mspmote.Exp5438MoteType
       <identifier>exp5438#2</identifier>
       <description>Exp5438 Mote Type exp5438#2</description>
-      <source EXPORT="discard">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-client/border-router-client.c</source>
-      <commands EXPORT="discard">make border-router-client.exp5438 TARGET=exp5438</commands>
-      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-client/border-router-client.exp5438</firmware>
+      <source EXPORT="discard">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.c</source>
+      <commands EXPORT="discard">make border-router-client_rpl.exp5438 TARGET=exp5438</commands>
+      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438</firmware>
       <moteinterface>org.contikios.cooja.interfaces.Position</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.RimeAddress</moteinterface>
       <moteinterface>org.contikios.cooja.interfaces.IPAddress</moteinterface>
