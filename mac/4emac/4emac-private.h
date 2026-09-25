@@ -52,7 +52,7 @@ extern uint8_t MAX_EB_INTERVAL_MUL;
 /* [Mavi Alp Research Proprietary Code Redacted] */
 #endif
 
-#define FOURE_ADHOC_SYNC_MAX_NODES 50
+#define FOURE_ADHOC_SYNC_MAX_NODES 64
 
 #ifdef FOURE_CONF_KA_INTERVAL
 /* [Mavi Alp Research Proprietary Code Redacted] */
