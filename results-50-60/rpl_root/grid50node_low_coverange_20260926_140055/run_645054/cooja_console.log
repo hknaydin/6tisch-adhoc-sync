@@ -1,0 +1,2078 @@
+ INFO [main] (Cooja.java:1316) - > Starting Cooja
+ INFO [main] (Cooja.java:2857) - External tools default settings: /external_tools_linux_64.config
+ INFO [main] (Cooja.java:2887) - External tools user settings: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/results/rpl_root/grid50node_low_coverange_20260926_140055/cooja_external_tools.properties
+FATAL [main] (Cooja.java:1941) - No plugin class: class org.contikios.cooja.plugins.CollectViewFull: org/jfree/data/time/RegularTimePeriod
+ INFO [main] (Simulation.java:422) - Simulation random seed: 645054
+ INFO [main] (CompileContiki.java:140) - > make border-router-server_rpl.exp5438 TARGET=exp5438 
+Message:
+Message:> make border-router-server_rpl.exp5438 TARGET=exp5438 
+Message:../../../../Makefile.gcc:23: Warning: you're using an old version of msp430-gcc.
+Message:../../../../Makefile.gcc:24: Upgrade to 4.7.x is recommended for extended memory support and bugfixes.
+Message:make: 'border-router-server_rpl.exp5438' is up to date.
+ INFO [main] (CompileContiki.java:140) - > make border-router-client_rpl.exp5438 TARGET=exp5438 
+Message:
+Message:> make border-router-client_rpl.exp5438 TARGET=exp5438 
+Message:../../../../Makefile.gcc:23: Warning: you're using an old version of msp430-gcc.
+Message:../../../../Makefile.gcc:24: Upgrade to 4.7.x is recommended for extended memory support and bugfixes.
+Message:make: 'border-router-client_rpl.exp5438' is up to date.
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-server_rpl/border-router-server_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/examples/tsch/rpl-udp/border-router-client_rpl/border-router-client_rpl.exp5438
+ INFO [main] (Cooja.java:1782) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1782) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1782) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+ INFO [main] (Cooja.java:1782) - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+ INFO [main] (ScriptRunner.java:438) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 3800000 ms
+ INFO [main] (ScriptRunner.java:395) - Test script activated
+ INFO [Thread-2] (Simulation.java:253) - Simulation main loop started, system time: 1790420462749
+ INFO [main] (Mobility.java:84) - Mobility plugin started at (ms): 172
+ INFO [main] (Mobility.java:116) - Parsing position file: /home/drhakanaydin/6tisch-ng-sra-v17-50-60-node-update/6tisch-ng-sra-v17/6tisch-ng-sra/tools/cooja/apps/mobility/grid50node_low.dat
+ INFO [main] (Mobility.java:141) - Loaded 3601 positions
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 4592.1 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1112433)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1112470)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1115622)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 5024.1 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 5662.9 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30609)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1390612)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1390649)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1394134)
+ WARN [Thread-2] (MspMote.java:229) - 17: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 6642.6 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1094840)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1094877)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1098015)
+ WARN [Thread-2] (MspMote.java:229) - 44: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 7701.2 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 8457.9 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30465)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1395743)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1395780)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1398616)
+ WARN [Thread-2] (MspMote.java:229) - 49: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 8605.6 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 8459.2 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1398051)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1398088)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1401091)
+ WARN [Thread-2] (MspMote.java:229) - 11: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 11 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $14eee (elapsed: 31370)
+  foure_timesynch_parent_switch_callback (packetbuf.c) called from PC: $1e95c (elapsed: 69451)
+  rpl_set_preferred_parent (local in rpl-dag.c) called from PC: $1ef8c (elapsed: 164811)
+  rpl_nullify_parent (packetbuf.c) called from PC: $1fc26 (elapsed: 403052)
+  rpl_process_parent_event (packetbuf.c) called from PC: $1fcbe (elapsed: 535662)
+  rpl_recalculate_ranks (packetbuf.c) called from PC: $23726 (elapsed: 744859)
+  handle_periodic_timer (local in rpl-timers.c) called from PC: $1219c (elapsed: 745976)
+  process_thread_ctimer_process (local in ctimer.c) called from PC: $12738 (elapsed: 746201)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 746238)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 780152)
+ WARN [Thread-2] (MspMote.java:229) - 16: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1488734)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1488771)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1491990)
+ WARN [Thread-2] (MspMote.java:229) - 10: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1467896)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1467933)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1470996)
+ WARN [Thread-2] (MspMote.java:229) - 15: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1398134)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1398171)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1401359)
+ WARN [Thread-2] (MspMote.java:229) - 48: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1406420)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1406457)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1409458)
+ WARN [Thread-2] (MspMote.java:229) - 9: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1553710)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1553747)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1556825)
+ WARN [Thread-2] (MspMote.java:229) - 25: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1415395)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1415432)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1418651)
+ WARN [Thread-2] (MspMote.java:229) - 26: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1434018)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1434055)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1437135)
+ WARN [Thread-2] (MspMote.java:229) - 36: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 72274)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1490040)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1490077)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1493109)
+ WARN [Thread-2] (MspMote.java:229) - 5: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1467776)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1467813)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1471003)
+ WARN [Thread-2] (MspMote.java:229) - 21: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1366782)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1366819)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1370038)
+ WARN [Thread-2] (MspMote.java:229) - 30: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1393819)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1393856)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1397015)
+ WARN [Thread-2] (MspMote.java:229) - 20: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 11 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $14eee (elapsed: 72243)
+  foure_timesynch_parent_switch_callback (packetbuf.c) called from PC: $1e95c (elapsed: 129047)
+  rpl_set_preferred_parent (local in rpl-dag.c) called from PC: $1ef8c (elapsed: 222080)
+  rpl_nullify_parent (packetbuf.c) called from PC: $1fc26 (elapsed: 463760)
+  rpl_process_parent_event (packetbuf.c) called from PC: $1fcbe (elapsed: 559620)
+  rpl_recalculate_ranks (packetbuf.c) called from PC: $23726 (elapsed: 560670)
+  handle_periodic_timer (local in rpl-timers.c) called from PC: $1219c (elapsed: 561022)
+  process_thread_ctimer_process (local in ctimer.c) called from PC: $12738 (elapsed: 561247)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 561284)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 564472)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1610186)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1610223)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1613359)
+ WARN [Thread-2] (MspMote.java:229) - 1: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1590249)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1590286)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1593534)
+ WARN [Thread-2] (MspMote.java:229) - 24: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 640280)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 640317)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 643469)
+ WARN [Thread-2] (MspMote.java:229) - 11: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1422968)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1423005)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1426143)
+ WARN [Thread-2] (MspMote.java:229) - 4: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 45.00%, done in 7879.2 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 838311)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 838348)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 841533)
+ WARN [Thread-2] (MspMote.java:229) - 26: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1362873)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1362910)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1365913)
+ WARN [Thread-2] (MspMote.java:229) - 40: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1445248)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1445285)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1448423)
+ WARN [Thread-2] (MspMote.java:229) - 13: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1424152)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1424189)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1427379)
+ WARN [Thread-2] (MspMote.java:229) - 28: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30501)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1374374)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1374411)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1377335)
+ WARN [Thread-2] (MspMote.java:229) - 31: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1416207)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1416244)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1419388)
+ WARN [Thread-2] (MspMote.java:229) - 23: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1413387)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1413424)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1416722)
+ WARN [Thread-2] (MspMote.java:229) - 3: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 670933)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 670970)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 673962)
+ WARN [Thread-2] (MspMote.java:229) - 16: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 640796)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 640833)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 644062)
+ WARN [Thread-2] (MspMote.java:229) - 1: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 778240)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 778277)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 781506)
+ WARN [Thread-2] (MspMote.java:229) - 15: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1412823)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1412860)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1415942)
+ WARN [Thread-2] (MspMote.java:229) - 14: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1358491)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1358528)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1361610)
+ WARN [Thread-2] (MspMote.java:229) - 22: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30459)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1399875)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1399912)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1403102)
+ WARN [Thread-2] (MspMote.java:229) - 33: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 59408)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1477023)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1477060)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1480110)
+ WARN [Thread-2] (MspMote.java:229) - 8: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30573)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1395509)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1395546)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1398619)
+ WARN [Thread-2] (MspMote.java:229) - 27: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1420020)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1420057)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1423049)
+ WARN [Thread-2] (MspMote.java:229) - 32: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30531)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1077336)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1077373)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1080689)
+ WARN [Thread-2] (MspMote.java:229) - 10: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30459)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 936900)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 936937)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 940089)
+ WARN [Thread-2] (MspMote.java:229) - 4: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 809304)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 809341)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 818187)
+ WARN [Thread-2] (MspMote.java:229) - 36: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1416951)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1416988)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1420941)
+ WARN [Thread-2] (MspMote.java:229) - 7: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1166148)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1166185)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1169285)
+ WARN [Thread-2] (MspMote.java:229) - 2: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31364)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 216679)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 216716)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 218997)
+ WARN [Thread-2] (MspMote.java:229) - 22: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1476672)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1476709)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1479998)
+ WARN [Thread-2] (MspMote.java:229) - 41: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 34418)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1375071)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1375108)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1378179)
+ WARN [Thread-2] (MspMote.java:229) - 43: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 50.00%, done in 6924.5 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 774830)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 774867)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 777861)
+ WARN [Thread-2] (MspMote.java:229) - 9: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30639)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1083181)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1083218)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1086295)
+ WARN [Thread-2] (MspMote.java:229) - 5: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1391699)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1391736)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1394813)
+ WARN [Thread-2] (MspMote.java:229) - 34: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1360474)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1360511)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1363584)
+ WARN [Thread-2] (MspMote.java:229) - 29: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1370342)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1370379)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1373215)
+ WARN [Thread-2] (MspMote.java:229) - 42: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 695416)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 695453)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 698711)
+ WARN [Thread-2] (MspMote.java:229) - 26: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 11 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $14eee (elapsed: 31370)
+  foure_timesynch_parent_switch_callback (packetbuf.c) called from PC: $1e95c (elapsed: 69452)
+  rpl_set_preferred_parent (local in rpl-dag.c) called from PC: $1ef8c (elapsed: 162643)
+  rpl_nullify_parent (packetbuf.c) called from PC: $1fc26 (elapsed: 380635)
+  rpl_process_parent_event (packetbuf.c) called from PC: $1fcbe (elapsed: 478006)
+  rpl_recalculate_ranks (packetbuf.c) called from PC: $23726 (elapsed: 479679)
+  handle_periodic_timer (local in rpl-timers.c) called from PC: $1219c (elapsed: 479946)
+  process_thread_ctimer_process (local in ctimer.c) called from PC: $12738 (elapsed: 480171)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 480208)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 483389)
+ WARN [Thread-2] (MspMote.java:229) - 17: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 11 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $14eee (elapsed: 31370)
+  foure_timesynch_parent_switch_callback (packetbuf.c) called from PC: $1e95c (elapsed: 69446)
+  rpl_set_preferred_parent (local in rpl-dag.c) called from PC: $1ef8c (elapsed: 164309)
+  rpl_nullify_parent (packetbuf.c) called from PC: $1fc26 (elapsed: 386182)
+  rpl_process_parent_event (packetbuf.c) called from PC: $1fcbe (elapsed: 484479)
+  rpl_recalculate_ranks (packetbuf.c) called from PC: $23726 (elapsed: 486687)
+  handle_periodic_timer (local in rpl-timers.c) called from PC: $1219c (elapsed: 486954)
+  process_thread_ctimer_process (local in ctimer.c) called from PC: $12738 (elapsed: 487179)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 487216)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 490239)
+ WARN [Thread-2] (MspMote.java:229) - 41: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 943950)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 943987)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 947463)
+ WARN [Thread-2] (MspMote.java:229) - 20: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30483)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1380782)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1380819)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1384048)
+ WARN [Thread-2] (MspMote.java:229) - 21: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 641692)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 641729)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 644962)
+ WARN [Thread-2] (MspMote.java:229) - 30: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 843413)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 843450)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 846442)
+ WARN [Thread-2] (MspMote.java:229) - 31: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1088985)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1089022)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1092093)
+ WARN [Thread-2] (MspMote.java:229) - 16: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1214951)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1214988)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1218088)
+ WARN [Thread-2] (MspMote.java:229) - 18: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30459)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1383277)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1383314)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1387400)
+ WARN [Thread-2] (MspMote.java:229) - 12: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 971373)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 971410)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 974323)
+ WARN [Thread-2] (MspMote.java:229) - 8: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 831482)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 831519)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 834673)
+ WARN [Thread-2] (MspMote.java:229) - 13: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 949366)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 949403)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 952771)
+ WARN [Thread-2] (MspMote.java:229) - 10: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1358856)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1358893)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1361968)
+ WARN [Thread-2] (MspMote.java:229) - 45: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30465)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1452334)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1452371)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1455475)
+ WARN [Thread-2] (MspMote.java:229) - 35: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 941653)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 941690)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 945002)
+ WARN [Thread-2] (MspMote.java:229) - 11: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1129477)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1129514)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1132506)
+ WARN [Thread-2] (MspMote.java:229) - 3: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 799267)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 799304)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1826688)
+ WARN [Thread-2] (MspMote.java:229) - 2: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 539829)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 539866)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 543097)
+ WARN [Thread-2] (MspMote.java:229) - 25: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31364)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 214996)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 215033)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 218439)
+ WARN [Thread-2] (MspMote.java:229) - 34: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1429561)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1429598)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1438395)
+ WARN [Thread-2] (MspMote.java:229) - 44: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1106706)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1106743)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1109847)
+ WARN [Thread-2] (MspMote.java:229) - 4: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30555)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1397593)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1397630)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1400859)
+ WARN [Thread-2] (MspMote.java:229) - 46: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 525248)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 525285)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 528360)
+ WARN [Thread-2] (MspMote.java:229) - 7: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30561)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 810926)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 810963)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 814042)
+ WARN [Thread-2] (MspMote.java:229) - 40: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30627)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 808690)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 808727)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 811802)
+ WARN [Thread-2] (MspMote.java:229) - 14: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 722387)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 722424)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 725497)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 948392)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 948429)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 951344)
+ WARN [Thread-2] (MspMote.java:229) - 21: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30512)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 633720)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 633757)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 636755)
+ WARN [Thread-2] (MspMote.java:229) - 5: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 55.00%, done in 5980.8 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 34487)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1229366)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1229403)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1232586)
+ WARN [Thread-2] (MspMote.java:229) - 51: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 811449)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 811486)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 814640)
+ WARN [Thread-2] (MspMote.java:229) - 41: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 949297)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 949334)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 952623)
+ WARN [Thread-2] (MspMote.java:229) - 3: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30639)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1398711)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1398748)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1401979)
+ WARN [Thread-2] (MspMote.java:229) - 36: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 674419)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 674456)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 677448)
+ WARN [Thread-2] (MspMote.java:229) - 13: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 39492)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1253080)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1253117)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1256267)
+ WARN [Thread-2] (MspMote.java:229) - 39: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 670215)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 670252)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 673061)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 533906)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 533943)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 536909)
+ WARN [Thread-2] (MspMote.java:229) - 24: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30651)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1401225)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1401262)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1404254)
+ WARN [Thread-2] (MspMote.java:229) - 37: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 778700)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 778737)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 781650)
+ WARN [Thread-2] (MspMote.java:229) - 29: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 765656)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 765693)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 768714)
+ WARN [Thread-2] (MspMote.java:229) - 2: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1073716)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1073753)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1077040)
+ WARN [Thread-2] (MspMote.java:229) - 12: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1262910)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1262947)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1266265)
+ WARN [Thread-2] (MspMote.java:229) - 26: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31520)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 185596)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 185633)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 186920)
+ WARN [Thread-2] (MspMote.java:229) - 40: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 925034)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 925071)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 928065)
+ WARN [Thread-2] (MspMote.java:229) - 30: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 533866)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 533903)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 536825)
+ WARN [Thread-2] (MspMote.java:229) - 28: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30651)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 501030)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 501067)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 503955)
+ WARN [Thread-2] (MspMote.java:229) - 33: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1228010)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1228047)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1231125)
+ WARN [Thread-2] (MspMote.java:229) - 38: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 950286)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 950323)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 953238)
+ WARN [Thread-2] (MspMote.java:229) - 27: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 639311)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 639348)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 643459)
+ WARN [Thread-2] (MspMote.java:229) - 35: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30531)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 815322)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 815359)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 818514)
+ WARN [Thread-2] (MspMote.java:229) - 1: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1214409)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1214446)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1217521)
+ WARN [Thread-2] (MspMote.java:229) - 16: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1095391)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1095428)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1098501)
+ WARN [Thread-2] (MspMote.java:229) - 31: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 991453)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 991490)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 994644)
+ WARN [Thread-2] (MspMote.java:229) - 17: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1357479)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1357516)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1361706)
+ WARN [Thread-2] (MspMote.java:229) - 22: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31364)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 185434)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 185471)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 187831)
+ WARN [Thread-2] (MspMote.java:229) - 25: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 979766)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 979803)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 983839)
+ WARN [Thread-2] (MspMote.java:229) - 21: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 981444)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 981481)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 984637)
+ WARN [Thread-2] (MspMote.java:229) - 20: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1399981)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1400018)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1402857)
+ WARN [Thread-2] (MspMote.java:229) - 50: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1287149)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1287186)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1290484)
+ WARN [Thread-2] (MspMote.java:229) - 48: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 909162)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 909199)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 912191)
+ WARN [Thread-2] (MspMote.java:229) - 34: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 60.00%, done in 5107.6 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31365)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 185743)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 185780)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 187067)
+ WARN [Thread-2] (MspMote.java:229) - 32: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 971403)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 971440)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 975640)
+ WARN [Thread-2] (MspMote.java:229) - 12: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30483)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 950330)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 950367)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 953521)
+ WARN [Thread-2] (MspMote.java:229) - 11: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1393019)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1393056)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1396127)
+ WARN [Thread-2] (MspMote.java:229) - 49: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 60093)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1116763)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1116800)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1119992)
+ WARN [Thread-2] (MspMote.java:229) - 47: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 33812)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1229396)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1229433)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1232432)
+ WARN [Thread-2] (MspMote.java:229) - 42: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1359877)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1359914)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1362913)
+ WARN [Thread-2] (MspMote.java:229) - 43: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1221275)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1221312)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1224468)
+ WARN [Thread-2] (MspMote.java:229) - 45: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1226890)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1226927)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1231279)
+ WARN [Thread-2] (MspMote.java:229) - 44: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1223638)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1223675)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1226906)
+ WARN [Thread-2] (MspMote.java:229) - 40: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 808261)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 808298)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 811533)
+ WARN [Thread-2] (MspMote.java:229) - 34: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1222788)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1222825)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1225817)
+ WARN [Thread-2] (MspMote.java:229) - 35: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1280665)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1280702)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1283833)
+ WARN [Thread-2] (MspMote.java:229) - 39: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 699677)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 699714)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 702949)
+ WARN [Thread-2] (MspMote.java:229) - 28: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 685205)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 685242)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 688561)
+ WARN [Thread-2] (MspMote.java:229) - 15: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 809871)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 809908)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 813062)
+ WARN [Thread-2] (MspMote.java:229) - 48: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30507)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 639210)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 639247)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 642322)
+ WARN [Thread-2] (MspMote.java:229) - 26: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 95718)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 845197)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 845234)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 848149)
+ WARN [Thread-2] (MspMote.java:229) - 46: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 977531)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 977568)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 980753)
+ WARN [Thread-2] (MspMote.java:229) - 38: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 638624)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 638661)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 641734)
+ WARN [Thread-2] (MspMote.java:229) - 31: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1089377)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1089414)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1092564)
+ WARN [Thread-2] (MspMote.java:229) - 50: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 65.00%, done in 4311.7 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 781892)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 781929)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 785031)
+ WARN [Thread-2] (MspMote.java:229) - 35: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1083972)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1084009)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1087469)
+ WARN [Thread-2] (MspMote.java:229) - 23: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30561)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1087516)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1087553)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1090784)
+ WARN [Thread-2] (MspMote.java:229) - 29: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31365)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 185921)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 185958)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 187245)
+ WARN [Thread-2] (MspMote.java:229) - 24: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31364)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 186464)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 186501)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 189670)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 981525)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 981562)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 984635)
+ WARN [Thread-2] (MspMote.java:229) - 38: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 777394)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 777431)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 780348)
+ WARN [Thread-2] (MspMote.java:229) - 30: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 59193)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1081775)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1081812)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1084885)
+ WARN [Thread-2] (MspMote.java:229) - 46: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31364)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 185597)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 185634)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 187994)
+ WARN [Thread-2] (MspMote.java:229) - 33: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1292955)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1292992)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1296015)
+ WARN [Thread-2] (MspMote.java:229) - 45: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1091085)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1091122)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1094274)
+ WARN [Thread-2] (MspMote.java:229) - 39: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1227508)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1227545)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1230620)
+ WARN [Thread-2] (MspMote.java:229) - 28: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 11 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $14eee (elapsed: 31370)
+  foure_timesynch_parent_switch_callback (packetbuf.c) called from PC: $1e95c (elapsed: 69452)
+  rpl_set_preferred_parent (local in rpl-dag.c) called from PC: $1ef8c (elapsed: 163821)
+  rpl_nullify_parent (packetbuf.c) called from PC: $1fc26 (elapsed: 381059)
+  rpl_process_parent_event (packetbuf.c) called from PC: $1fcbe (elapsed: 475351)
+  rpl_recalculate_ranks (packetbuf.c) called from PC: $23726 (elapsed: 475778)
+  handle_periodic_timer (local in rpl-timers.c) called from PC: $1219c (elapsed: 476045)
+  process_thread_ctimer_process (local in ctimer.c) called from PC: $12738 (elapsed: 476270)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 476307)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 479302)
+ WARN [Thread-2] (MspMote.java:229) - 51: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 919460)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 919497)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 922408)
+ WARN [Thread-2] (MspMote.java:229) - 40: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 60463)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 704978)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 705015)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 708169)
+ WARN [Thread-2] (MspMote.java:229) - 34: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1406245)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1406282)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1409679)
+ WARN [Thread-2] (MspMote.java:229) - 17: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31401)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 214202)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 214239)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 217408)
+ WARN [Thread-2] (MspMote.java:229) - 32: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1083935)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1083972)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1087079)
+ WARN [Thread-2] (MspMote.java:229) - 27: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1382813)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1382850)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1385932)
+ WARN [Thread-2] (MspMote.java:229) - 18: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1359411)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1359448)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1363403)
+ WARN [Thread-2] (MspMote.java:229) - 22: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 814798)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 814835)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 817856)
+ WARN [Thread-2] (MspMote.java:229) - 35: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 3579.8 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1119252)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1119289)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1122530)
+ WARN [Thread-2] (MspMote.java:229) - 50: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 827957)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 827994)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 831001)
+ WARN [Thread-2] (MspMote.java:229) - 14: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1349399)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1349436)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1353561)
+ WARN [Thread-2] (MspMote.java:229) - 7: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 670820)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 670857)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 674090)
+ WARN [Thread-2] (MspMote.java:229) - 24: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 501035)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 501072)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 504067)
+ WARN [Thread-2] (MspMote.java:229) - 1: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 977472)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 977509)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 980580)
+ WARN [Thread-2] (MspMote.java:229) - 51: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1090373)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1090410)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1093512)
+ WARN [Thread-2] (MspMote.java:229) - 46: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1091630)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1091667)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1094692)
+ WARN [Thread-2] (MspMote.java:229) - 45: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30459)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1371950)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1371987)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1379025)
+ WARN [Thread-2] (MspMote.java:229) - 13: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 690442)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 690479)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 693631)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1089211)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1089248)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1092163)
+ WARN [Thread-2] (MspMote.java:229) - 29: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 676256)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 676293)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 679551)
+ WARN [Thread-2] (MspMote.java:229) - 30: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 900757)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 900794)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 904025)
+ WARN [Thread-2] (MspMote.java:229) - 17: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 11 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $14eee (elapsed: 31376)
+  foure_timesynch_parent_switch_callback (packetbuf.c) called from PC: $1e95c (elapsed: 69457)
+  rpl_set_preferred_parent (local in rpl-dag.c) called from PC: $1ef8c (elapsed: 163819)
+  rpl_nullify_parent (packetbuf.c) called from PC: $1fc26 (elapsed: 410564)
+  rpl_process_parent_event (packetbuf.c) called from PC: $1fcbe (elapsed: 504932)
+  rpl_recalculate_ranks (packetbuf.c) called from PC: $23726 (elapsed: 505359)
+  handle_periodic_timer (local in rpl-timers.c) called from PC: $1219c (elapsed: 505626)
+  process_thread_ctimer_process (local in ctimer.c) called from PC: $12738 (elapsed: 505851)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 505888)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 508803)
+ WARN [Thread-2] (MspMote.java:229) - 7: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1331377)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1331414)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1334518)
+ WARN [Thread-2] (MspMote.java:229) - 40: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 82075)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 961066)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 961103)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 964183)
+ WARN [Thread-2] (MspMote.java:229) - 10: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 968025)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 968062)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 971067)
+ WARN [Thread-2] (MspMote.java:229) - 16: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1084051)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1084088)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1113444)
+ WARN [Thread-2] (MspMote.java:229) - 26: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 2889.0 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30651)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 945684)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 945721)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 949039)
+ WARN [Thread-2] (MspMote.java:229) - 51: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1083990)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1084027)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1087021)
+ WARN [Thread-2] (MspMote.java:229) - 46: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 982170)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 982207)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 985280)
+ WARN [Thread-2] (MspMote.java:229) - 50: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 939836)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 939873)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 942957)
+ WARN [Thread-2] (MspMote.java:229) - 20: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30555)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1395289)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1395326)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1398615)
+ WARN [Thread-2] (MspMote.java:229) - 8: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 31383)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 185617)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 185654)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 186941)
+ WARN [Thread-2] (MspMote.java:229) - 31: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30620)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1268381)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1268418)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1271491)
+ WARN [Thread-2] (MspMote.java:229) - 17: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1427628)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1427665)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1430508)
+ WARN [Thread-2] (MspMote.java:229) - 12: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 11 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $14eee (elapsed: 31370)
+  foure_timesynch_parent_switch_callback (packetbuf.c) called from PC: $1e95c (elapsed: 69452)
+  rpl_set_preferred_parent (local in rpl-dag.c) called from PC: $1ef8c (elapsed: 162639)
+  rpl_nullify_parent (packetbuf.c) called from PC: $1fc26 (elapsed: 379463)
+  rpl_process_parent_event (packetbuf.c) called from PC: $1fcbe (elapsed: 476918)
+  rpl_recalculate_ranks (packetbuf.c) called from PC: $23726 (elapsed: 478581)
+  handle_periodic_timer (local in rpl-timers.c) called from PC: $1219c (elapsed: 478848)
+  process_thread_ctimer_process (local in ctimer.c) called from PC: $12738 (elapsed: 479073)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 479110)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 482196)
+ WARN [Thread-2] (MspMote.java:229) - 2: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1067081)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1067118)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1070112)
+ WARN [Thread-2] (MspMote.java:229) - 18: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30639)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1377570)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1377607)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1380689)
+ WARN [Thread-2] (MspMote.java:229) - 3: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 11 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $14eee (elapsed: 31370)
+  foure_timesynch_parent_switch_callback (packetbuf.c) called from PC: $1e95c (elapsed: 69452)
+  rpl_set_preferred_parent (local in rpl-dag.c) called from PC: $1ef8c (elapsed: 163815)
+  rpl_nullify_parent (packetbuf.c) called from PC: $1fc26 (elapsed: 378543)
+  rpl_process_parent_event (packetbuf.c) called from PC: $1fcbe (elapsed: 472920)
+  rpl_recalculate_ranks (packetbuf.c) called from PC: $23726 (elapsed: 473347)
+  handle_periodic_timer (local in rpl-timers.c) called from PC: $1219c (elapsed: 473614)
+  process_thread_ctimer_process (local in ctimer.c) called from PC: $12738 (elapsed: 473839)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 473876)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 476793)
+ WARN [Thread-2] (MspMote.java:229) - 7: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 833063)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 833100)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 836173)
+ WARN [Thread-2] (MspMote.java:229) - 8: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1267922)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1267959)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1270881)
+ WARN [Thread-2] (MspMote.java:229) - 15: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 977707)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 977744)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 981035)
+ WARN [Thread-2] (MspMote.java:229) - 17: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 807684)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 807721)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 810718)
+ WARN [Thread-2] (MspMote.java:229) - 27: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 968364)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 968401)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 971402)
+ WARN [Thread-2] (MspMote.java:229) - 11: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 530518)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 530555)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 533628)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 533507)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 533544)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 536540)
+ WARN [Thread-2] (MspMote.java:229) - 24: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 948295)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 948332)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 951333)
+ WARN [Thread-2] (MspMote.java:229) - 25: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1391584)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1391621)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1394456)
+ WARN [Thread-2] (MspMote.java:229) - 22: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 997193)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 997230)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1000463)
+ WARN [Thread-2] (MspMote.java:229) - 13: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 2252.4 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 815285)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 815322)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 818265)
+ WARN [Thread-2] (MspMote.java:229) - 28: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1407517)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1407554)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1410705)
+ WARN [Thread-2] (MspMote.java:229) - 35: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 33539)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1370046)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1370083)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1373080)
+ WARN [Thread-2] (MspMote.java:229) - 45: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1391746)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1391783)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1394696)
+ WARN [Thread-2] (MspMote.java:229) - 46: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1222341)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1222378)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1225449)
+ WARN [Thread-2] (MspMote.java:229) - 41: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1096277)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1096314)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1099543)
+ WARN [Thread-2] (MspMote.java:229) - 40: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 59858)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1254907)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1254944)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1259292)
+ WARN [Thread-2] (MspMote.java:229) - 50: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 948909)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 948946)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 951947)
+ WARN [Thread-2] (MspMote.java:229) - 49: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 776339)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 776376)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 779370)
+ WARN [Thread-2] (MspMote.java:229) - 31: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1085031)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1085068)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1088060)
+ WARN [Thread-2] (MspMote.java:229) - 51: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 948715)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 948752)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 951748)
+ WARN [Thread-2] (MspMote.java:229) - 36: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 772930)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 772967)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 776414)
+ WARN [Thread-2] (MspMote.java:229) - 18: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1217853)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1217890)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1220963)
+ WARN [Thread-2] (MspMote.java:229) - 17: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 1662.6 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1074330)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1074367)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1077656)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1342716)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1342753)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1345776)
+ WARN [Thread-2] (MspMote.java:229) - 3: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 977265)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 977302)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 980629)
+ WARN [Thread-2] (MspMote.java:229) - 33: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1279763)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1279800)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1282954)
+ WARN [Thread-2] (MspMote.java:229) - 42: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 840520)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 840557)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 843815)
+ WARN [Thread-2] (MspMote.java:229) - 49: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 1101.6 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1218230)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1218267)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1221419)
+ WARN [Thread-2] (MspMote.java:229) - 3: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1001740)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1001777)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1004883)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 504774)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 504811)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 507974)
+ WARN [Thread-2] (MspMote.java:229) - 29: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1392905)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1392942)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1396082)
+ WARN [Thread-2] (MspMote.java:229) - 8: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 949511)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 949548)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 952461)
+ WARN [Thread-2] (MspMote.java:229) - 33: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 669634)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 669671)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 672825)
+ WARN [Thread-2] (MspMote.java:229) - 39: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1154955)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1154992)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1158147)
+ WARN [Thread-2] (MspMote.java:229) - 35: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30465)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1121007)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1121044)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1124124)
+ WARN [Thread-2] (MspMote.java:229) - 11: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1385095)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1385132)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1388293)
+ WARN [Thread-2] (MspMote.java:229) - 12: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 640285)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 640322)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 643479)
+ WARN [Thread-2] (MspMote.java:229) - 46: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 551.7 sec
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30495)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1245699)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1245736)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1248651)
+ WARN [Thread-2] (MspMote.java:229) - 38: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1341482)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1341519)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1344827)
+ WARN [Thread-2] (MspMote.java:229) - 3: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1339285)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1339322)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1342395)
+ WARN [Thread-2] (MspMote.java:229) - 14: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 950816)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 950853)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 954035)
+ WARN [Thread-2] (MspMote.java:229) - 44: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1599667)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1599704)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1602815)
+ WARN [Thread-2] (MspMote.java:229) - 13: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30447)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1266393)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1266430)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1269770)
+ WARN [Thread-2] (MspMote.java:229) - 43: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 34330)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1088823)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1088860)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1092014)
+ WARN [Thread-2] (MspMote.java:229) - 48: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 947315)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 947352)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 950652)
+ WARN [Thread-2] (MspMote.java:229) - 25: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1095851)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1095888)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1099043)
+ WARN [Thread-2] (MspMote.java:229) - 47: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1109914)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1109951)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1113132)
+ WARN [Thread-2] (MspMote.java:229) - 19: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1348221)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1348258)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1351575)
+ WARN [Thread-2] (MspMote.java:229) - 20: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1220584)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1220621)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1223624)
+ WARN [Thread-2] (MspMote.java:229) - 24: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30585)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1455731)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1455768)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1458839)
+ WARN [Thread-2] (MspMote.java:229) - 23: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1320678)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1320715)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1323549)
+ WARN [Thread-2] (MspMote.java:229) - 1: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30453)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1377579)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1377616)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1380756)
+ WARN [Thread-2] (MspMote.java:229) - 7: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1108760)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1108797)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1111802)
+ WARN [Thread-2] (MspMote.java:229) - 2: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1356753)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1356790)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1359633)
+ WARN [Thread-2] (MspMote.java:229) - 22: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1405323)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1405360)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1408606)
+ WARN [Thread-2] (MspMote.java:229) - 27: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1363942)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1363979)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1367196)
+ WARN [Thread-2] (MspMote.java:229) - 28: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Watchdog: illegal write to WDTCTL (0) from $103ca - reset!!!!
+Stack Trace: number of calls: 5 PC: $103ca
+  watchdog_reboot (packetbuf.c) called from PC: $24c30 (elapsed: 5)
+  restart_time_synchronisation (packetbuf.c) called from PC: $159f2 (elapsed: 30452)
+  process_thread_foure_timesynch_process (local in 4emac-timesynch.c) called from PC: $12738 (elapsed: 1354225)
+  call_process (local in process.c) called from PC: $1291c (elapsed: 1354262)
+  process_run (packetbuf.c) called from PC: $05edc (elapsed: 1357371)
+ WARN [Thread-2] (MspMote.java:229) - 18: # Watchdog[EXECUTION]: illegal write to WDTCTL (0) from $103ca - reset!!!!
+ INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 3800000000
+ INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-2] (Simulation.java:312) - Simulation main loop stopped, system time: 1790431523770	Duration: 11061021 ms	Simulated time 3800000 ms	Ratio 0.3435487555805201
+ INFO [AWT-EventQueue-1] (ScriptRunner.java:438) - Test script deactivated
