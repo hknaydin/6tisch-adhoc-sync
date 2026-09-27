@@ -107,7 +107,7 @@ python scripts/parse-cooja-log.py results/grid-30node.log
 | S4 | Random | High (2–8 m/s, RWP) | 1 |
 
 <p align="justify">
-All six scenarios are executed for both 30-node and 40-node networks on a 300 m × 300 m area, with the Exp5438 mote (16-bit MSP430F5438) emulated under UDGM. Each scenario is repeated for ten random seeds; mean values are reported.
+All four scenarios (grid and random layouts, each under the low- and high-coverage trajectory) are executed on a 4~km $\times$ 3~km area, with the Exp5438 mote (16-bit MSP430F5438) emulated under UDGM with a 1000~m transmission range. In the 30- and 40-source networks every scenario is run with and without the gossip layer; in the 50- and 60-source networks it is run with the gossip layer only. Each scenario is repeated for five random seeds; mean values and sample standard deviations are reported.
 </p>
 ---
 
