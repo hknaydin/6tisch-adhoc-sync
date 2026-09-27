@@ -44,6 +44,8 @@ This repository contains the implementation, simulation configurations, mobility
 │   ├── compute-energest.py      # ENERGEST → mW conversion
 │   └── plot-results.py          # figures used in the paper
 ├── results/                     # CSV files of evaluation runs
+│   ├── rpl_root
+│   ├── rpl_root_gossip
 └── docs/                        # design notes, frame format, parameters
 ```
 
@@ -107,7 +109,7 @@ python scripts/parse-cooja-log.py results/grid-30node.log
 | S4 | Random | High (2–8 m/s, RWP) | 1 |
 
 <p align="justify">
-All four scenarios (grid and random layouts, each under the low- and high-coverage trajectory) are executed on a 4~km $\times$ 3~km area, with the Exp5438 mote (16-bit MSP430F5438) emulated under UDGM with a 1000~m transmission range. In the 30- and 40-source networks every scenario is run with and without the gossip layer; in the 50- and 60-source networks it is run with the gossip layer only. Each scenario is repeated for five random seeds; mean values and sample standard deviations are reported.
+All four scenarios (grid and random layouts, each under the low- and high-coverage trajectory) are executed on a 4~km $\times$ 3~km area, with the Exp5438 mote (16-bit MSP430F5438) emulated under UDGM with a 1000~m transmission range. In the 30-60 source networks every scenario is run with and without the gossip layer. Each scenario is repeated for five random seeds; mean values and sample standard deviations are reported.
 </p>
 ---
 
